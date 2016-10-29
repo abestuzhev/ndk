@@ -1,0 +1,93 @@
+
+
+/* Start:/bitrix/templates/prostroy_default/components//bitrix/system.pagenavigation/gopro/style.css?1475674889475*/
+.navigation{
+	float:right;
+	padding-top:12px;
+	font-size:14px;
+}
+.navigation .arrow  .icon{
+	width:7px;
+	height:14px;
+}
+.navigation span,
+.navigation a{
+	display:inline-block;
+	padding:0px 5px;
+}
+.navigation a.arrow.left .icon{
+	background-position:-14px -531px;
+}
+.navigation span.arrow.left .icon{
+	background-position:0px -531px;
+}
+.navigation a.arrow.right .icon{
+	background-position:-14px -545px;
+}
+.navigation span.arrow.right .icon{
+	background-position:0px -545px;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/prostroy_default/components/bitrix/news.list/gopro/style.css?14756748891017*/
+.iblocklist{
+	line-height:18px;
+}
+.iblocklist .item{
+	width:100%;
+	margin-bottom:25px;
+}
+.iblocklist .item .pic,
+.iblocklist .item .info{
+	float:left;
+}
+.iblocklist .item .pic{
+	width:20%;
+	min-width:90px;
+	padding:0px 20px 10px 0px;
+}
+.iblocklist .item .info{
+	width:80%;
+	text-align:justify;
+}
+.iblocklist .item.noimage .info{
+	width: 100%;
+}
+.iblocklist .item .name{
+	margin-bottom:5px;
+}
+.iblocklist .item .more{
+	margin-top:20px;
+	text-align:right;
+}
+.iblocklist .item .more a .icon{
+	width:7px;
+	height:14px;
+	margin-left:5px;
+	margin-bottom:3px;
+	background-position:0px -545px;
+}
+.iblocklist .item .more a:hover .icon{
+	background-position:-21px -545px;
+}
+
+@media screen and (max-width:480px){
+	body.adaptive .iblocklist .item.line{
+		padding-top:10px;
+		border-top:1px solid #F2F2F2;
+	}
+	body.adaptive .iblocklist .item .pic,
+	body.adaptive .iblocklist .item .info{
+		width:100%;
+	}
+	body.adaptive .iblocklist .item .pic{
+		text-align:center;
+	}
+	body.adaptive .iblocklist .item .more{
+		margin-top:5px;
+	}
+}
+/* End */
+/* /bitrix/templates/prostroy_default/components//bitrix/system.pagenavigation/gopro/style.css?1475674889475 */
+/* /bitrix/templates/prostroy_default/components/bitrix/news.list/gopro/style.css?14756748891017 */

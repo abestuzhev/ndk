@@ -1,0 +1,48 @@
+
+
+/* Start:/bitrix/templates/prostroy_default/components/bitrix/system.auth.authorize/.default/style.css?147567488946*/
+.pcontent.thisisauthpage{
+	padding-left:0px;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/prostroy_default/components/bitrix/socserv.auth.form/.default/style.css?1475674889615*/
+.body div.bx-auth-line{
+	border:none;
+}
+.body div.bx-auth-service-form{
+	background-color:#F3F3F3;
+	border:none;
+}
+.body div.bx-auth-services a.bx-ss-selected{
+	background-color:#F3F3F3;
+	border:1px solid #F3F3F3;
+}
+.body .socform .bx-ss-icon{
+	display:none;
+}
+.body .socform input{
+	padding:3px 5px;
+	
+}
+
+@media screen and (max-width:480px){
+	body.adaptive .body .socform span:after{
+		display:block;
+		clear:both;
+		content:" ";
+		font-size:0;
+		height:0;
+		visibility:hidden;
+	}
+	body.adaptive .body .socform .button{
+		margin-top:10px;
+	}
+	body.adaptive .body div.bx-auth-service-form{
+		text-align:center;
+	}
+}
+/* End */
+/* /bitrix/templates/prostroy_default/components/bitrix/system.auth.authorize/.default/style.css?147567488946 */
+/* /bitrix/templates/prostroy_default/components/bitrix/socserv.auth.form/.default/style.css?1475674889615 */

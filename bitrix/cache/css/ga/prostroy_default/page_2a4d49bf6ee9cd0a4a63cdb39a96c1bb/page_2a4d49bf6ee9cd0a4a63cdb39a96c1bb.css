@@ -1,0 +1,144 @@
+
+
+/* Start:/bitrix/templates/prostroy_default/components/bitrix/catalog/gopro/style.css?14763611841469*/
+.catalog{
+	width:100%;
+}
+.catalog .sidebar{
+	width:275px;
+	float:left;
+}
+.catalog .sidebar ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.catalog .sidebar ul > li {
+	list-style-type: none;
+}
+.catalog .prods{
+	margin-left:275px;
+}
+.catalog .prods .borlef{
+	border-left:1px solid #F2F2F2;
+}
+.catalog .prods .mix{
+	padding-bottom:12px;
+}
+.catalog .prods .sectinfo,
+.catalog .prods .mix,
+.catalog .prods .ajaxpages_gmci{
+	width:100%;
+	float:left;
+}
+.catalog .prods .sectinfo{
+	border-top:1px solid #E5E5E5;
+}
+.catalog .prods .sectinfo .description{
+	font-family:Opensanslight,Arial,Helvetica,sans-serif;
+	color:#484848;
+}
+.catalog .prods .compareandpaginator{
+	padding:12px 0px;
+	border-top:1px solid #E5E5E5;
+}
+.catalog .prods .compareandpaginator .compare{
+	float:left;
+	padding-left:17px;
+}
+.catalog .prods .mix .catalogsorter{
+	padding-top:12px;
+	border-top:1px solid #E5E5E5;
+}
+.catalog .errortext {
+	margin-left: 15px;
+}
+
+@media screen and (max-width:775px){
+	body.adaptive .catalog .compare{
+		width:100%;
+		float:none;
+	}
+}
+@media screen and (max-width:605px){
+	body.adaptive .catalog .sidebar,
+	body.adaptive .catalog .prods{
+		width:100%;
+		margin-left:0px;
+	}
+	body.adaptive .catalog .prods .sectinfo,
+	body.adaptive .catalog .prods .mix{
+		border-left:none;
+	}
+	body.adaptive .catalog .prods .mix .compareandpaginator{
+		display:none;
+	}
+	body.adaptive .catalog .prods .compareandpaginator .compare{
+		padding-left:0px;
+	}
+}
+/* End */
+
+
+/* Start:/bitrix/templates/prostroy_default/components/bitrix/catalog.section.list/gopro/style.css?1475674889920*/
+.sections{
+	width:100%;
+}
+.sections ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.sections ul > li {
+	list-style-type: none;
+}
+.sections li.section{
+	display:block;
+	width:20%;
+	float:left;
+	padding:17px;
+}
+.sections a{
+	font:13px Opensans,Arial,Helvetica,sans-serif;
+	line-height:24px;
+}
+.sections a.psection{
+	display:block;
+	height:170px;
+	line-height:170px;
+	text-align:center;
+}
+.sections a.psection img{
+	max-height:161px;
+	line-height:1.2;
+	vertical-align:middle;
+}
+.sections a.parent{
+	display:block;
+	font-size:18px;
+	color:#ee8131;
+}
+
+@media screen and (max-width: 1010px){
+	body.adaptive .sections li.section{
+		width:25%;
+	}
+}
+@media screen and (max-width: 750px){
+	body.adaptive .sections li.section{
+		width:33%;
+	}
+}
+@media screen and (max-width: 480px){
+	body.adaptive .sections li.section{
+		width:50%;
+	}
+	body.adaptive .sections .subsections{
+		display:none;
+	}
+}
+/* End */
+/* /bitrix/templates/prostroy_default/components/bitrix/catalog/gopro/style.css?14763611841469 */
+/* /bitrix/templates/prostroy_default/components/bitrix/catalog.section.list/gopro/style.css?1475674889920 */
