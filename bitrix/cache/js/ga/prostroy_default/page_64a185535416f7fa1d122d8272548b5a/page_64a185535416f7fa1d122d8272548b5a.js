@@ -72,7 +72,7 @@ $(document).ready(function(){
 				if( parentWidth<988 ) {
 					jssor_slider1.$SetScaleWidth(parentWidth);
 				} else {
-					jssor_slider1.$SetScaleWidth(990);
+					jssor_slider1.$SetScaleWidth(1240);
 				}
 			} else {
 				window.setTimeout(RSGOPRO_ScaleSlider, 30);

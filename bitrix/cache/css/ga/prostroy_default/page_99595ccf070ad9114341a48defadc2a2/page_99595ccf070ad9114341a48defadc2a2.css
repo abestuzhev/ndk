@@ -244,7 +244,7 @@
 /* Start:/bitrix/templates/prostroy_default/components/bitrix/news.list/banners/style.css?14756748894944*/
 .aroundjssorslider1{
 	min-height:405px;
-	margin-left:252px;
+	/*margin-left:252px;*/
 }
 .aroundjssorslider1 .banner{
 	position:relative;
@@ -258,10 +258,20 @@
 	padding:27px 24px;
 	background:transparent url('/bitrix/templates/prostroy_default/components/bitrix/news.list/banners/img/bg.png') 0 0 repeat;
 }
+
+body .aroundjssorslider1 img {
+	width: auto;
+	height: auto;
+
+}
+
+
 .aroundjssorslider1 .tmsg .title1{
 	font-size:24px;
 	color:#214496;
 }
+
+
 .aroundjssorslider1 .tmsg .title2{
 	margin-top:8px;
 	font:13px Opensanslight,Arial,Helvetica,sans-serif;
