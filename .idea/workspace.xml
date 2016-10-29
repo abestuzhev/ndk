@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06013848-a0c6-4a63-87df-7648d270ed08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/page_99595ccf070ad9114341a48defadc2a2/page_99595ccf070ad9114341a48defadc2a2.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/page_99595ccf070ad9114341a48defadc2a2/page_99595ccf070ad9114341a48defadc2a2.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/ga/prostroy_default/page_64a185535416f7fa1d122d8272548b5a/page_64a185535416f7fa1d122d8272548b5a.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/ga/prostroy_default/page_64a185535416f7fa1d122d8272548b5a/page_64a185535416f7fa1d122d8272548b5a.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.ndksale.ru.iws" />
@@ -31,14 +27,14 @@
     <favorites_list name="www.ndksale.ru" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4829323">
+    <splitter split-orientation="horizontal" split-proportion="0.463906">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="292">
-                  <caret line="1020" column="22" selection-start-line="1020" selection-start-column="22" selection-end-line="1020" selection-end-column="45" />
+                  <caret line="1050" column="101" selection-start-line="1050" selection-start-column="101" selection-end-line="1050" selection-end-column="101" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,8 +75,8 @@
           <file leaf-file-name="redesign_leeft_2016.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="9073" column="9" selection-start-line="9073" selection-start-column="9" selection-end-line="9073" selection-end-column="9" />
+                <state relative-caret-position="644">
+                  <caret line="8065" column="25" selection-start-line="8065" selection-start-column="25" selection-end-line="8065" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -469,15 +465,15 @@
       <workItem from="1477710377814" duration="3733000" />
       <workItem from="1477714607729" duration="1723000" />
       <workItem from="1477716660360" duration="10478000" />
-      <workItem from="1477741363109" duration="4215000" />
+      <workItem from="1477741363109" duration="4595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20149000" />
+    <option name="totallyTimeSpent" value="20529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1873" height="1096" extended-state="7" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014340872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -633,7 +629,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="1020" column="22" selection-start-line="1020" selection-start-column="22" selection-end-line="1020" selection-end-column="45" />
+          <caret line="1050" column="101" selection-start-line="1050" selection-start-column="101" selection-end-line="1050" selection-end-column="101" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -652,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="9073" column="9" selection-start-line="9073" selection-start-column="9" selection-end-line="9073" selection-end-column="9" />
+        <state relative-caret-position="644">
+          <caret line="8065" column="25" selection-start-line="8065" selection-start-column="25" selection-end-line="8065" selection-end-column="25" />
           <folding />
         </state>
       </provider>

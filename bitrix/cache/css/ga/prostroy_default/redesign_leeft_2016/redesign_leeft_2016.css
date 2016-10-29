@@ -8047,7 +8047,7 @@ BACKGROUND COLOR*/
 /*.catalogmenu a.first.hover,*/
 /*.catalogmenu a.sub:hover,*/
 /*.catalogmenu a.sub.hover,*/
-#jssor_slider1 .navi .av,
+/*#jssor_slider1 .navi .av,*/
 .pmenu a:hover,
 #jssor_slider1 .navi div:hover, #jssor_slider1 .navi .av:hover,
 .filtren .showchild:hover,
@@ -8062,6 +8062,10 @@ BACKGROUND COLOR*/
 .aroundowlslider1 .item.product .text .line span,
 .comparelist a:hover {
   background-color: #514587 !important; }
+
+#jssor_slider1 .navi .av {
+  background-color: #fadb2a;
+}
 
 .tline {
   background-color: #fadb2a !important; }
