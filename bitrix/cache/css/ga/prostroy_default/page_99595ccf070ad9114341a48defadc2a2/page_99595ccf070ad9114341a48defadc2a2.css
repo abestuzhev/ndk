@@ -2,18 +2,18 @@
 
 /* Start:/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/style.css?14763663595141*/
 .newbox-right-fon {
-    background: url("/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-right-fon.png") right top no-repeat;
+    background: url("bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-right-fon.png") right top no-repeat;
     height: 38px;
     margin: 4px 0 0 0;
     position: relative;
     z-index: 2;
 }
 .newbox-left-fon {
-    background: url("/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-left-fon.png") left top no-repeat;
+    background: url("bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-left-fon.png") left top no-repeat;
     height: 38px;
 }
 .newbox-fon {
-    background: url("/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-fon.png") center top repeat-x;
+    background: url("bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/personal-fon.png") center top repeat-x;
     height: 38px;
     margin: 0 3px 0 3px;
 }
@@ -74,15 +74,17 @@
 }
 .treeview li.expandable {
     background-position: 0 -176px;
+	position: relative;
+;
 }
 .treeview li.collapsable {
     background-position: 0 -176px;
 }
 .collapsable .first {
-    color: #ff5c00 !important;
+    color: #514587 !important;
 }
 .treeview li {
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default-line.gif) 0 0 no-repeat;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default-line.gif) 0 0 no-repeat;
 }
 .f1 {
     background: none !important;
@@ -94,15 +96,15 @@
 .expandable .ff {
     top: 5px;
     left: 4px;
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-arrow-01.png) 5px 2px no-repeat !important;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-arrow-01.png) 5px 2px no-repeat !important;
 }
 .collapsable .ff {
     top: 5px;
     left: 4px;
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-arrow-01.png) -38px -36px no-repeat !important;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-arrow-01.png) -38px -36px no-repeat !important;
 }
 .treeview .hitarea {
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif) -64px -25px no-repeat;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif) -64px -25px no-repeat;
     height: 16px;
     width: 16px;
     margin-left: -16px;
@@ -112,7 +114,7 @@
     z-index: 1;
 }
 .newbox-content-catalog .first {
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
     line-height: 36px;
     height: 36px;
     display: inline-block;
@@ -140,7 +142,7 @@
     line-height: 11px;
     font-family: Tahoma, Arial;
     text-shadow: none;
-	background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
+	background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
 }
 .ml {
     font-size: 11px;
@@ -186,7 +188,7 @@
 
 .treeview li.lastCollapsable, 
 .treeview li.lastExpandable {
-    background-image: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif);
+    background-image: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif);
 	padding-top:0px;
 }
 .treeview li.expandable {
@@ -218,7 +220,7 @@
     width: 50px;
     z-index: 1;
     right: 0px;
-    background: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/white_cover.png) right top repeat-y;
+    background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/white_cover.png) right top repeat-y;
     top: 0px;
     text-align: right;
     color: #999;
@@ -229,15 +231,15 @@
 }
 .treeview li.lastCollapsable, 
 .treeview li.lastExpandable {
-    background-image: url(/bitrix/templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif) !important;
+    background-image: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/treeview-default.gif) !important;
     padding-top: 0px;
 }
 .treeview a.selected {
     color: #ff5c00;
     font-weight: bold;
 }
-.f1>span {text-overflow: ellipsis;  white-space: nowrap;}
-.f1>span>.kolvo {padding: 12px 4px; top:1px;right:0}
+/*.f1>span {text-overflow: ellipsis;  white-space: nowrap;}*/
+.f1>span>.kolvo {padding: 0 4px; top:35%;right:9px}
 /* End */
 
 
