@@ -10454,3 +10454,8 @@ body {padding-bottom: 0 !important;}
 .header .logo {
   margin-right: 46px;
 }
+
+.btn-ndk-basket {
+  width: 105px;
+  display: inline-block;
+}
