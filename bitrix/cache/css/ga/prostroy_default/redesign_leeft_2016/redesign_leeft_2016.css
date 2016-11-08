@@ -8916,7 +8916,7 @@ ACTIVE BACKGROUND COLOR*/
 /* Start:../../../../../templates/prostroy_default/components/redsign/favorite.list/inheader/style.css?1475674889429*/
 .btn-ndk {
   display: inline-block;
-  padding: 8px 14px;
+  padding: 8px 21px;
   border-radius: 40px;
   color: #3A3359;
   font-family: "Roboto";
@@ -10456,6 +10456,24 @@ body {padding-bottom: 0 !important;}
 }
 
 .btn-ndk-basket {
-  width: 105px;
+  padding: 3px 12px;
   display: inline-block;
+  color: #3A3359;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.btn-ndk-basket b{
+  margin-right: 4px;
+}
+
+.products-order {
+  margin-left: 30px;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #3A3359;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 400;
 }
