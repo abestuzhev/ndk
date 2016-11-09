@@ -276,7 +276,7 @@ input:-moz-placeholder {
     padding-left: 15px; } }
 
 @media screen and (max-width: 1180px) {
-  .kurs {
+  .course {
     display: none;
   }
   .body .header .logo {
@@ -10444,12 +10444,6 @@ body {padding-bottom: 0 !important;}
   background: url('../../../../../templates/prostroy_default/assets/img/item-bg-2.jpg') 0 100% no-repeat;
 }
 
-.kurs_bg {
-  width: 248px;
-  height: 36px;
-  background: url('../../../../../templates/prostroy_default/assets/img/kurs.png') 0 100% no-repeat;
-
-}
 
 .header .logo {
   margin-right: 46px;
@@ -10476,4 +10470,51 @@ body {padding-bottom: 0 !important;}
   font-family: "Roboto";
   font-size: 10px;
   font-weight: 400;
+}
+
+.course_title {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #777777;
+}
+
+.course_usd,
+.course_eur {
+  font-family: "Roboto";
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.course_usd {
+  margin-right: 20px;
+}
+
+.course-currency {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  vertical-align: middle;
+  color: #777777;
+}
+
+.course-icon-down,
+.course-icon-up{
+  display: inline-block;
+  width: 9px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 5px;
+  padding-bottom: 2px;
+  background: url('../../../../../templates/prostroy_default/assets/img/arrow.png') 0 0 no-repeat;
+}
+
+.course-icon-up {
+  background-position: -9px 0;
 }
