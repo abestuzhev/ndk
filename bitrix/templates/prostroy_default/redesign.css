@@ -1,38 +1,38 @@
 
 
-/* Start:../../../../../templates/prostroy_default/assets/css/style.css?1476427628185435*/
+/* Start:assets/css/style.css?1476427628185435*/
 @charset "UTF-8";
 /* main */
 /* buttons */
 /* forms */
 @font-face {
   font-family: Opensans;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/eot/OpenSans-Regular.eot");
+  src: url("assets/css/../fonts/eot/OpenSans-Regular.eot");
   /* EOT file for IE */ }
 
 @font-face {
   font-family: Opensans;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/ttf/OpenSans-Regular.ttf");
+  src: url("assets/css/../fonts/ttf/OpenSans-Regular.ttf");
   /* TTF file for CSS3 browsers */ }
 
 @font-face {
   font-family: Opensanslight;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/eot/OpenSans-Light.eot");
+  src: url("assets/css/../fonts/eot/OpenSans-Light.eot");
   /* EOT file for IE */ }
 
 @font-face {
   font-family: Opensanslight;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/ttf/OpenSans-Light.ttf");
+  src: url("assets/css/../fonts/ttf/OpenSans-Light.ttf");
   /* TTF file for CSS3 browsers */ }
 
 @font-face {
   font-family: Opensansbold;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/eot/OpenSans-Bold.eot");
+  src: url("assets/css/../fonts/eot/OpenSans-Bold.eot");
   /* EOT file for IE */ }
 
 @font-face {
   font-family: Opensansbold;
-  src: url("../../../../../templates/prostroy_default/assets/css/../fonts/ttf/OpenSans-Bold.ttf");
+  src: url("assets/css/../fonts/ttf/OpenSans-Bold.ttf");
   /* TTF file for CSS3 browsers */ }
 
 .body input[type="text"],
@@ -51,20 +51,28 @@
 .gopro-subscribe-window input[type="password"],
 .gopro-subscribe-window textarea,
 .gopro-subscribe-window select {
-  width: auto;
+  width: 100%;
   height: auto;
-  font: 13px Opensanslight, Arial, Helvetica, sans-serif;
+  /*font: 13px Opensanslight, Arial, Helvetica, sans-serif;*/
+  color: #414141;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
   margin: 0;
-  padding: 10px 9px;
+  padding: 16px 15px;
   outline: -webkit-focus-ring-color auto 0;
   border: 1px solid #ebebeb;
-  background: none;
+  background-color: #fff;
   box-shadow: none;
-  border-radius: none;
+  border-radius: 4px;
   transition: border-color ease-in-out 0.15s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative;
+
+}
+
 .body input[type="text"]:focus,
 .body input[type="password"]:focus,
 .body textarea:focus,
@@ -715,15 +723,15 @@ input:-moz-placeholder {
 .timer.da2 .progressbar .progress {
   border: 1px solid #c5007c;
   background-color: #c5007c;
-  /*background-image:url('../../../../../templates/prostroy_default/assets/css/../img/timer_da2.jpg');*/ }
+  /*background-image:url('assets/css/../img/timer_da2.jpg');*/ }
 
 .timer.qb .progressbar .progress {
   border: 1px solid #66b132;
   background-color: #66b132;
-  /*background-image:url('../../../../../templates/prostroy_default/assets/css/../img/timer_qb.jpg');*/ }
+  /*background-image:url('assets/css/../img/timer_qb.jpg');*/ }
 
 .timer i {
-  background-image: url("../../../../../templates/prostroy_default/assets/css/../img/clock.png"); }
+  background-image: url("assets/css/../img/clock.png"); }
 
 body.circular {
   /* base */
@@ -1831,7 +1839,7 @@ body.circular .orderlist .switch a {
   width: 10px;
   height: 10px;
   background-position: 0px -91px;
-  background-image: url(../../../../../templates/prostroy_default/assets/css/../img/icons.png?v100);
+  background-image: url(assets/css/../img/icons.png?v100);
   z-index: 8050; }
 
 .popup-window-overlay {
@@ -3276,7 +3284,7 @@ body.circular .orderlist .switch a {
   top: 0;
   right: 0;
   bottom: 0;
-  background: transparent url("../../../../../templates/prostroy_default/assets/css/img/cross.svg") no-repeat;
+  background: transparent url("assets/css/img/cross.svg") no-repeat;
   background-size: 100% 100%; }
 
 .filtren.opacity .lvl2 div.disabled label.pic span {
@@ -3291,7 +3299,7 @@ body.circular .orderlist .switch a {
   display: none; }
 
 .filtren .lvl2 div label.pic span.nopic {
-  background-image: url("../../../../../templates/prostroy_default/assets/css/img/all.jpg"); }
+  background-image: url("assets/css/img/all.jpg"); }
 
 .filtren .lvl2 div label.pic:hover {
   background-color: #EE8131; }
@@ -3459,7 +3467,7 @@ body.circular .orderlist .switch a {
 
 .filtren .modef .arrow {
   padding: 6px 7px 6px 0px;
-  background-image: url("../../../../../templates/prostroy_default/assets/css/img/modef_bg.png");
+  background-image: url("assets/css/img/modef_bg.png");
   background-repeat: no-repeat;
   background-position: 0px 0px; }
 
@@ -4979,7 +4987,7 @@ body.circular .orderlist .switch a {
   left: 10%;
   max-width: 350px;
   padding: 27px 24px;
-  background: transparent url("../../../../../templates/prostroy_default/assets/css/img/bg.png") 0 0 repeat; }
+  background: transparent url("assets/css/img/bg.png") 0 0 repeat; }
 
 .aroundowlslider1 .tmsg .title1 {
   font-size: 24px;
@@ -6373,10 +6381,10 @@ div.search-popup-el-cnt {
 /* simple items */
 /* products */
 .stitle .iblock .catitem .inner {
-  background: url("../../../../../templates/prostroy_default/assets/css/img/dashed1.png") 0px bottom repeat; }
+  background: url("assets/css/img/dashed1.png") 0px bottom repeat; }
 
 .stitle .iblock .catitem:hover .inner {
-  background: url("../../../../../templates/prostroy_default/assets/css/img/dashed2.png") 0px bottom repeat; }
+  background: url("assets/css/img/dashed2.png") 0px bottom repeat; }
 
 .stitle .iblock .catitem .pic {
   display: inline-block;
@@ -7037,15 +7045,15 @@ h1.pagetitle {
 .pngicons,
 .showcase .share .b-share-icon,
 .rsgppopup .share .b-share-icon {
-  background-image: url("../../../../../templates/prostroy_default/assets/img/icons.png?v100"); }
+  background-image: url("assets/img/icons.png?v100"); }
 
 .animashka,
 #fancybox-loading div {
-  background: transparent url("../../../../../templates/prostroy_default/assets/img/loading.gif?v100") center center no-repeat; }
+  background: transparent url("assets/img/loading.gif?v100") center center no-repeat; }
 
 .catalogmenu a.parent .icon.menu,
 .catalogmenusmall a.parent .icon.menu {
-  background-image: url("../../../../../templates/prostroy_default/assets/img/menu.png"); }
+  background-image: url("assets/img/menu.png"); }
 
 .boxsizing,
 .column1,
@@ -7168,7 +7176,7 @@ a.fullback:hover .icon {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("../../../../../templates/prostroy_default/assets/css/../img/area2darken.png") repeat scroll 0 0 transparent;
+  background: url("assets/css/../img/area2darken.png") repeat scroll 0 0 transparent;
   z-index: 990; }
 
 .area2darken .animashka {
@@ -7252,7 +7260,7 @@ a.fullback:hover .icon {
   background-repeat: no-repeat; }
 
 .js-element.qb .icon.da2qb {
-  background-image: url("../../../../../templates/prostroy_default/assets/css/../img/qb.png"); }
+  background-image: url("assets/css/../img/qb.png"); }
 
 .js-element.da2 .icon.da2qb,
 .js-element.da2.qb .icon.da2qb,
@@ -7263,7 +7271,7 @@ a.fullback:hover .icon {
 
 .js-element.da2 .icon.da2qb,
 .js-element.da2.qb .icon.da2qb {
-  background-image: url("../../../../../templates/prostroy_default/assets/css/../img/da2.png"); }
+  background-image: url("assets/css/../img/da2.png"); }
 
 /* price */
 .price.old {
@@ -7324,7 +7332,7 @@ a.fullback:hover .icon {
   display: inline-block;
   margin-right: 3px;
   content: '';
-  background-image: url("../../../../../templates/prostroy_default/assets/css/../img/icons.png?v100"); }
+  background-image: url("assets/css/../img/icons.png?v100"); }
 
 .body input[type="checkbox"] + label:before,
 .body input[type="checkbox"] + label > .input_ie,
@@ -7399,7 +7407,7 @@ a.fullback:hover .icon {
 
 .tpanel-bg-line {
   height: 21px;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/header-top-bg.jpg) 48% 50% no-repeat;
+  background: url(assets/css/../img/header-top-bg.jpg) 48% 50% no-repeat;
   -webkit-background-size:cover;
   background-size:cover;
 }
@@ -7474,7 +7482,7 @@ a.fullback:hover .icon {
   /* width: 39px; */
   height: 30px;
   display: block;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/download-icon-outline.png) 48% 0 no-repeat;
+  background: url(assets/css/../img/download-icon-outline.png) 48% 0 no-repeat;
   margin-bottom: 5px;
 }
 /* footer -> line1 */
@@ -7509,7 +7517,7 @@ a.fullback:hover .icon {
   margin-right: 10px;
   position: relative;
   top: -2px;
-  background: url("../../../../../templates/prostroy_default/assets/img/footer-menu-icon.png")
+  background: url("assets/img/footer-menu-icon.png")
 }
 
 .foot-contact_number {
@@ -7526,7 +7534,7 @@ a.fullback:hover .icon {
   margin-right: 8px;
   position: relative;
   top: -2px;
-  background: url("../../../../../templates/prostroy_default/assets/img/phone-icon.png")
+  background: url("assets/img/phone-icon.png")
 
 }
 
@@ -7536,7 +7544,7 @@ a.fullback:hover .icon {
   margin-right: 8px;
   position: relative;
   top: -2px;
-  background: url("../../../../../templates/prostroy_default/assets/img/wright-icon.png")
+  background: url("assets/img/wright-icon.png")
 }
 
 .foot-subscribe::before {
@@ -7789,7 +7797,7 @@ body .add2basketform .buy1click {
   margin-bottom: 10px; }
 
 .someform.secure .line.password .text {
-  background: url("../../../../../templates/prostroy_default/assets/css/../img/sec.png") 96% 10px no-repeat; }
+  background: url("assets/css/../img/sec.png") 96% 10px no-repeat; }
 
 .someform .line.buttons .btn {
   width: 100%;
@@ -8030,7 +8038,7 @@ body .add2basketform .buy1click {
 .gopro-subscribe-window input[type="password"]:focus,
 .gopro-subscribe-window textarea:focus,
 .gopro-subscribe-window select:focus {
-  border-color: #c4010c; }
+  border-color: #fadb2a; }
 
 .body .bx-sls .dropdown-block,
 .body .bx-slst .dropdown-block,
@@ -8194,7 +8202,7 @@ ACTIVE BACKGROUND COLOR*/
 /* End */
 
 
-/* Start:../../../../../templates/prostroy_default/assets/lib/fancybox/jquery.fancybox.css?14756748894614*/
+/* Start:assets/lib/fancybox/jquery.fancybox.css?14756748894614*/
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -8268,7 +8276,7 @@ ACTIVE BACKGROUND COLOR*/
 
 .fancybox-prev span,
 .fancybox-next span{
-  background-image:url('../../../../../templates/prostroy_default/assets/lib/fancybox/fancybox_sprite.png');
+  background-image:url('assets/lib/fancybox/fancybox_sprite.png');
 }
 
 #fancybox-loading{
@@ -8291,7 +8299,7 @@ ACTIVE BACKGROUND COLOR*/
 #fancybox-loading div{
   width:31px;
   height:31px;
-  background:url('../../../../../templates/prostroy_default/assets/lib/fancybox/fancybox_loading.gif') center center no-repeat;
+  background:url('assets/lib/fancybox/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -8320,7 +8328,7 @@ ACTIVE BACKGROUND COLOR*/
   height:100%;
   cursor:pointer;
   text-decoration:none;
-  background:transparent url('../../../../../templates/prostroy_default/assets/lib/fancybox/blank.gif');
+  background:transparent url('assets/lib/fancybox/blank.gif');
   -webkit-tap-highlight-color:rgba(0,0,0,0);
   z-index:8040;
 }
@@ -8472,7 +8480,7 @@ ACTIVE BACKGROUND COLOR*/
 /* End */
 
 
-/* Start:../../../../../templates/prostroy_default/assets/lib/owl/owl.carousel.css?14756748894638*/
+/* Start:assets/lib/owl/owl.carousel.css?14756748894638*/
 /*
  *  Owl Carousel - Animate Plugin
  */
@@ -8650,7 +8658,7 @@ ACTIVE BACKGROUND COLOR*/
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("../../../../../templates/prostroy_default/assets/lib/owl/owl.video.play.png") no-repeat;
+  background: url("assets/lib/owl/owl.video.play.png") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -8694,7 +8702,7 @@ ACTIVE BACKGROUND COLOR*/
 /* End */
 
 
-/* Start:../../../../../templates/prostroy_default/assets/lib/jscrollpane/jquery.jscrollpane.css?14756748891682*/
+/* Start:assets/lib/jscrollpane/jquery.jscrollpane.css?14756748891682*/
 /*
 * CSS Styles that are needed by jScrollPane for it to operate correctly.
 *
@@ -8800,7 +8808,7 @@ ACTIVE BACKGROUND COLOR*/
 /* End */
 
 
-/* Start:../../../../../templates/prostroy_default/assets/js/glass/style.css?1475674889298*/
+/* Start:assets/js/glass/style.css?1475674889298*/
 .glass{
   position:relative;
   display:inline-block;
@@ -8908,7 +8916,7 @@ ACTIVE BACKGROUND COLOR*/
   display: inline-block;
   width: 15px;
   height: 13px;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/menu-home-icon.png) 0 0 no-repeat;
+  background: url(assets/css/../img/menu-home-icon.png) 0 0 no-repeat;
 }
 /* End */
 
@@ -8940,12 +8948,12 @@ ACTIVE BACKGROUND COLOR*/
 .download-icon {
   width: 29px;
   height: 22px;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/download-icon.png) 0 0 no-repeat;
+  background: url(assets/css/../img/download-icon.png) 0 0 no-repeat;
   margin-right: 6px;
 }
 
 .btn-ndk:hover .download-icon {
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/download-icon-white.png) 0 0 no-repeat;
+  background: url(assets/css/../img/download-icon-white.png) 0 0 no-repeat;
 }
 
 .rsfavorite{
@@ -8970,7 +8978,7 @@ ACTIVE BACKGROUND COLOR*/
 }
 
 .rsfavorite #inheadfavorite:hover .heart-icon{
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/heart-icon-white.png) 0 0 no-repeat;
+  background: url(assets/css/../img/heart-icon-white.png) 0 0 no-repeat;
 }
 
 .rsfavorite a,
@@ -8997,7 +9005,7 @@ ACTIVE BACKGROUND COLOR*/
 .heart-icon {
   width: 21px;
   height: 18px;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/heart-icon.png) 0 0 no-repeat;
+  background: url(assets/css/../img/heart-icon.png) 0 0 no-repeat;
   margin-right: 6px;
 }
 .rsfavorite .title,
@@ -9020,7 +9028,7 @@ ACTIVE BACKGROUND COLOR*/
 .basket-icon {
   width: 18px;
   height: 18px;
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/basket-icon.png) 0 0 no-repeat;
+  background: url(assets/css/../img/basket-icon.png) 0 0 no-repeat;
   margin-right: 6px;
 }
 
@@ -9036,11 +9044,11 @@ ACTIVE BACKGROUND COLOR*/
 }
 
 .basketinhead a:hover .basket-icon{
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/basket-icon-white.png) 0 0 no-repeat;
+  background: url(assets/css/../img/basket-icon-white.png) 0 0 no-repeat;
 }
 
 .btn-ndk:hover .basket-icon{
-  background: url(../../../../../templates/prostroy_default/assets/css/../img/basket-icon-white.png) 0 0 no-repeat;
+  background: url(assets/css/../img/basket-icon-white.png) 0 0 no-repeat;
 }
 
 .basketinhead a{
@@ -9226,7 +9234,7 @@ ACTIVE BACKGROUND COLOR*/
   /*border-right:1px solid #F3F3F3;*/
   /*border-bottom:1px solid #F3F3F3;*/
   /*border-left:1px solid #F3F3F3;*/
-  background: url('../../../../../templates/prostroy_default/assets/img/bg-menu.png') 0 50% no-repeat;
+  background: url('assets/img/bg-menu.png') 0 50% no-repeat;
   -webkit-background-size:cover;
   background-size: cover;
   margin-bottom: 2px;
@@ -9667,8 +9675,8 @@ body {padding-bottom: 0 !important;}
 #rs_easycart .rsec_iconka{display:inline-block;font-size:0;vertical-align:middle;}
 #rs_easycart .rsec_nowrap{white-space:nowrap;}
 #rs_easycart .rsec_clearfix:after{display:block;clear:both;content:" ";font-size:0;height:0;visibility:hidden;}
-#rs_easycart .rsec_block{position:absolute;top:0;right:0;bottom:0;left:0;background:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/loading_bg.png') repeat scroll 0 0 transparent;z-index:9999;}
-#rs_easycart .rsec_block .rsec_ikonka{position:absolute;top:50%;left:50%;width:31px;height:31px;margin:-15px 0px 0px -15px;background:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/loading.gif') no-repeat 0 0 transparent;}
+#rs_easycart .rsec_block{position:absolute;top:0;right:0;bottom:0;left:0;background:url('components/redsign/easycart/gopro/img/loading_bg.png') repeat scroll 0 0 transparent;z-index:9999;}
+#rs_easycart .rsec_block .rsec_ikonka{position:absolute;top:50%;left:50%;width:31px;height:31px;margin:-15px 0px 0px -15px;background:url('components/redsign/easycart/gopro/img/loading.gif') no-repeat 0 0 transparent;}
 .rsec_disableSelection{-ms-user-select:none;-moz-user-select:-moz-none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;}
 #rs_easycart .rsec_cantbuy, #rs_easycart .rsec_headers .rsec_changer.rsec_changer_hide{display:none;}
 #rs_easycart a{color:#214496;text-decoration:none;}
@@ -9873,7 +9881,7 @@ body {padding-bottom: 0 !important;}
   padding-top:140px;
   color:#ccc;
   font-size:13px;
-  background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/emptyviewed.png');
+  background-image:url('components/redsign/easycart/gopro/img/emptyviewed.png');
   background-position:0px 0px;
   background-repeat:no-repeat;
 }
@@ -9890,13 +9898,13 @@ body {padding-bottom: 0 !important;}
   background-repeat:no-repeat;
 }
 #rs_easycart .rsec_thistab_compare .rsec_emptytab .rsec_emptytab_icon{
-  background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/emptycompare.png');
+  background-image:url('components/redsign/easycart/gopro/img/emptycompare.png');
 }
 #rs_easycart .rsec_thistab_favorite .rsec_emptytab .rsec_emptytab_icon{
-  background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/emptyfavorite.png');
+  background-image:url('components/redsign/easycart/gopro/img/emptyfavorite.png');
 }
 #rs_easycart .rsec_thistab_basket .rsec_emptytab .rsec_emptytab_icon{
-  background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/emptybasket.png');
+  background-image:url('components/redsign/easycart/gopro/img/emptybasket.png');
 }
 /* content -> /no items in tab */
 /* content -> viewed */
@@ -10007,7 +10015,7 @@ body {padding-bottom: 0 !important;}
 #rs_easycart .rsec_headers a.selected{color:#666666;}
 /* themes -> orange (default) */
 #rs_easycart .rsec_iconka,
-#rs_easycart input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_orange.png?v100');}
+#rs_easycart input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_orange.png?v100');}
 #rs_easycart .rsec_btn1,
 #rs_easycart table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart .rsec_btn1{background-color:#ee8131;}
@@ -10018,7 +10026,7 @@ body {padding-bottom: 0 !important;}
 /* /themes -> /orange (default) */
 /* themes -> green */
 #rs_easycart.green .rsec_iconka,
-#rs_easycart.green input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_green.png?v100');}
+#rs_easycart.green input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_green.png?v100');}
 #rs_easycart.green table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.green .rsec_btn1{background-color:#4c6ca5;}
 #rs_easycart.green .rsec_btn2{background-color:#8cba25;}
@@ -10028,7 +10036,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /green */
 /* themes -> blue */
 #rs_easycart.blue .rsec_iconka,
-#rs_easycart.blue input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_blue.png?v100');}
+#rs_easycart.blue input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_blue.png?v100');}
 #rs_easycart.blue table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.blue .rsec_btn1{background-color:#3c3c3c;}
 #rs_easycart.blue .rsec_btn2{background-color:#fed75e;color:#000;}
@@ -10038,7 +10046,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /blue */
 /* themes -> purple */
 #rs_easycart.purple .rsec_iconka,
-#rs_easycart.purple input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_purple.png?v100');}
+#rs_easycart.purple input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_purple.png?v100');}
 #rs_easycart.purple table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.purple .rsec_btn1{background-color:#bdd179;}
 #rs_easycart.purple .rsec_btn2{background-color:#9375ab;}
@@ -10048,7 +10056,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /purple */
 /* themes -> yellow */
 #rs_easycart.yellow .rsec_iconka,
-#rs_easycart.yellow input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_yellow.png?v100');}
+#rs_easycart.yellow input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_yellow.png?v100');}
 #rs_easycart.yellow table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.yellow .rsec_btn1{background-color:#fed85e;color:#000;}
 #rs_easycart.yellow .rsec_btn2{background-color:#aabf6b;}
@@ -10058,7 +10066,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /yellow */
 /* themes -> lime */
 #rs_easycart.lime .rsec_iconka,
-#rs_easycart.lime input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_lime.png?v100');}
+#rs_easycart.lime input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_lime.png?v100');}
 #rs_easycart.lime table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.lime .rsec_btn1{background-color:#b7af4d;}
 #rs_easycart.lime .rsec_btn2{background-color:#5d640b;}
@@ -10068,7 +10076,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /lime */
 /* themes -> red */
 #rs_easycart.red .rsec_iconka,
-#rs_easycart.red input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_red.png?v100');}
+#rs_easycart.red input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_red.png?v100');}
 #rs_easycart.red table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.red .rsec_btn1{background-color:#647a9b;}
 #rs_easycart.red .rsec_btn2{background-color:#c4010c;}
@@ -10078,7 +10086,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /red */
 /* themes -> brown */
 #rs_easycart.brown .rsec_iconka,
-#rs_easycart.brown input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_brown.png?v100');}
+#rs_easycart.brown input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_brown.png?v100');}
 #rs_easycart.brown table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.brown .rsec_btn1{background-color:#ff9900;}
 #rs_easycart.brown .rsec_btn2{background-color:#8b645c;}
@@ -10088,7 +10096,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /brown */
 /* themes -> towny */
 #rs_easycart.towny .rsec_iconka,
-#rs_easycart.towny input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_towny.png?v100');}
+#rs_easycart.towny input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_towny.png?v100');}
 #rs_easycart.towny table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.towny .rsec_btn1{background-color:#ee3523;}
 #rs_easycart.towny .rsec_btn2{background-color:#e9c440;}
@@ -10098,7 +10106,7 @@ body {padding-bottom: 0 !important;}
 /* themes -> /towny */
 /* themes -> dark_blue */
 #rs_easycart.dark_blue .rsec_iconka,
-#rs_easycart.dark_blue input[type="checkbox"] + label:before{background-image:url('../../../../../templates/prostroy_default/components/redsign/easycart/gopro/img/icons_dark_blue.png?v100');}
+#rs_easycart.dark_blue input[type="checkbox"] + label:before{background-image:url('components/redsign/easycart/gopro/img/icons_dark_blue.png?v100');}
 #rs_easycart.dark_blue table.rsec_table tr:hover td.rsec_hov,
 #rs_easycart.dark_blue .rsec_btn1{background-color:#555555;}
 #rs_easycart.dark_blue .rsec_btn2{background-color:#214496;}
@@ -10228,11 +10236,11 @@ body {padding-bottom: 0 !important;}
   /*display:none !important;*/
 }
 /* End */
-/* ../../../../../templates/prostroy_default/assets/css/style.css?1476427628185435 */
-/* ../../../../../templates/prostroy_default/assets/lib/fancybox/jquery.fancybox.css?14756748894614 */
-/* ../../../../../templates/prostroy_default/assets/lib/owl/owl.carousel.css?14756748894638 */
-/* ../../../../../templates/prostroy_default/assets/lib/jscrollpane/jquery.jscrollpane.css?14756748891682 */
-/* ../../../../../templates/prostroy_default/assets/js/glass/style.css?1475674889298 */
+/* assets/css/style.css?1476427628185435 */
+/* assets/lib/fancybox/jquery.fancybox.css?14756748894614 */
+/* assets/lib/owl/owl.carousel.css?14756748894638 */
+/* assets/lib/jscrollpane/jquery.jscrollpane.css?14756748891682 */
+/* assets/js/glass/style.css?1475674889298 */
 /* ../../../../../templates/prostroy_default/components/redsign/autodetect.location/inheader/style.css?1475674889337 */
 /* ../../../../../templates/prostroy_default/components../../../../../system.auth.form/inheader/style.css?1475674889450 */
 /* ../../../../../templates/prostroy_default/components../../../../../menu/tpanel/style.css?1475674889187 */
@@ -10296,9 +10304,9 @@ body {padding-bottom: 0 !important;}
 .partner {
   text-align: center;
   width: 100%;
-  height: 310px;
+  height: 340px;
   padding-top: 42px;
-  background: url("../../../../../templates/prostroy_default/assets/img/partners-bg-new.png") 50% 50% no-repeat;
+  background: url("assets/img/partners-bg-new.png") 50% 50% no-repeat;
   -webkit-background-size:cover;
   background-size:cover;
   margin-bottom: -24px;
@@ -10373,21 +10381,21 @@ body {padding-bottom: 0 !important;}
 .slick-prev {
 
   left: -38px;
-  background: url('../../../../../templates/prostroy_default/assets/img/arrows-prev.png') 0 0 no-repeat;
+  background: url('assets/img/arrows-prev.png') 0 0 no-repeat;
 }
 
 .slick-next {
 
   right: -44px;
-  background: url('../../../../../templates/prostroy_default/assets/img/arrows-next.png') 0 0 no-repeat;
+  background: url('assets/img/arrows-next.png') 0 0 no-repeat;
 }
 
 .slick-prev:hover {
-  background: url('../../../../../templates/prostroy_default/assets/img/arrows-prev-hover.png') 0 0 no-repeat;
+  background: url('assets/img/arrows-prev-hover.png') 0 0 no-repeat;
 }
 
 .slick-next:hover {
-  background: url('../../../../../templates/prostroy_default/assets/img/arrows-next-hover.png') 0 0 no-repeat;
+  background: url('assets/img/arrows-next-hover.png') 0 0 no-repeat;
 }
 
 .header-layout {
@@ -10414,7 +10422,7 @@ body {padding-bottom: 0 !important;}
 }
 
 .newbox-content-catalog .first {
-  background: url(../../../../../templates/prostroy_default/components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
+  background: url(components/bitrix/menu/catalog_left/img/catalog-menu-01.png) 0 0 repeat-x;
   background-size: contain;
    line-height: 20px;
    height: auto;
@@ -10437,17 +10445,17 @@ body {padding-bottom: 0 !important;}
 }
 
 .section-toner {
-  background: url('../../../../../templates/prostroy_default/assets/img/item-bg-1.jpg') 0 100% no-repeat;
+  background: url('assets/img/item-bg-1.jpg') 0 100% no-repeat;
 }
 
 .section-toner-card {
-  background: url('../../../../../templates/prostroy_default/assets/img/item-bg-2.jpg') 0 100% no-repeat;
+  background: url('assets/img/item-bg-2.jpg') 0 100% no-repeat;
 }
 
 .kurs_bg {
   width: 248px;
   height: 36px;
-  background: url('../../../../../templates/prostroy_default/assets/img/kurs.png') 0 100% no-repeat;
+  background: url('assets/img/kurs.png') 0 100% no-repeat;
 
 }
 
@@ -10477,3 +10485,5 @@ body {padding-bottom: 0 !important;}
   font-size: 10px;
   font-weight: 400;
 }
+
+/**/
