@@ -10532,7 +10532,7 @@ body {padding-bottom: 0 !important;}
   vertical-align: middle;
   margin: 0 5px;
   padding-bottom: 2px;
-  background: url('../../../../../templates/prostroy_default/assets/img/arrow.png') 0 0 no-repeat;
+  background: url('assets/img/arrow.png') 0 0 no-repeat;
 }
 
 .course-icon-up {

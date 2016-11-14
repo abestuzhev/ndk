@@ -446,3 +446,33 @@ p {
   font-weight: 100;
   text-transform: uppercase;
 }
+
+/*****************************/
+/*suppliers*/
+/*****************************/
+.expressive-suppliers {
+  background: url('assets/img/provider-bg.jpg') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.hand-left-provider-bg,
+.hand-right-provider-bg {
+  position: absolute;
+  width: auto;
+}
+
+.hand-left-provider-bg {
+  top: 0;
+  right: 0;
+  background: url('assets/img/hand-left-provider-bg.png') 50% 50% no-repeat;
+
+}
+
+.hand-right-provider-bg {
+  top: 0;
+  right: 0;
+  background: url('assets/img/hand-right-provider-bg.png') 50% 50% no-repeat;
+
+}
