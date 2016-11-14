@@ -284,7 +284,7 @@ input:-moz-placeholder {
     padding-left: 15px; } }
 
 @media screen and (max-width: 1180px) {
-  .kurs {
+  .course {
     display: none;
   }
   .body .header .logo {
@@ -10452,12 +10452,15 @@ body {padding-bottom: 0 !important;}
   background: url('assets/img/item-bg-2.jpg') 0 100% no-repeat;
 }
 
+<<<<<<< HEAD:bitrix/templates/prostroy_default/redesign.css
 .kurs_bg {
   width: 248px;
   height: 36px;
   background: url('assets/img/kurs.png') 0 100% no-repeat;
 
 }
+=======
+>>>>>>> origin/master:bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css
 
 .header .logo {
   margin-right: 46px;
@@ -10486,4 +10489,53 @@ body {padding-bottom: 0 !important;}
   font-weight: 400;
 }
 
+<<<<<<< HEAD:bitrix/templates/prostroy_default/redesign.css
 /**/
+=======
+.course_title {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #777777;
+}
+
+.course_usd,
+.course_eur {
+  font-family: "Roboto";
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.course_usd {
+  margin-right: 20px;
+}
+
+.course-currency {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  vertical-align: middle;
+  color: #777777;
+}
+
+.course-icon-down,
+.course-icon-up{
+  display: inline-block;
+  width: 9px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 5px;
+  padding-bottom: 2px;
+  background: url('../../../../../templates/prostroy_default/assets/img/arrow.png') 0 0 no-repeat;
+}
+
+.course-icon-up {
+  background-position: -9px 0;
+}
+>>>>>>> origin/master:bitrix/cache/css/ga/prostroy_default/redesign_leeft_2016/redesign_leeft_2016.css
