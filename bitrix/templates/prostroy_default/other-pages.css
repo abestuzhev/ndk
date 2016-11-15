@@ -72,6 +72,7 @@
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 25px 0;
 }
 
 .expressive-pay_subtitle {
@@ -79,6 +80,8 @@
   font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 14px;
 }
 
 .expressive-pay_subtitle span {
@@ -93,6 +96,7 @@
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 64px;
 }
 
 /*****************************/
