@@ -480,3 +480,50 @@ p {
   background: url('assets/img/hand-right-provider-bg.png') 50% 50% no-repeat;
 
 }
+
+/*****************************/
+/*delivery*/
+/*****************************/
+
+.expressive-delivery {
+  text-align: left;
+  background: url('assets/img/delivery-bg.jpg') 50% 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.tabs li{
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.current{
+  background: #ededed;
+  color: #222;
+}
+
+.tab-content{
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+
+.tab-content.current{
+  display: inherit;
+}
