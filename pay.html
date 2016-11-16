@@ -1027,7 +1027,8 @@
         <br>
         Вместе с заказом выдаются счет, счет-фактура и накладная.<br>
       </div>
-
+      <img src="bitrix/templates/prostroy_default/assets/img/hand-pay.png" alt="" class="hand-pay">
+      <img src="bitrix/templates/prostroy_default/assets/img/package-pay.png" alt="" class="package-pay">
     </div>
   </div><!-- /content -->
 </div><!-- /body -->
@@ -1197,7 +1198,12 @@
 <!--}-->
 <!--})();</script>-->
 <!-- {/literal} END JIVOSITE CODE -->
+<script
+        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+        crossorigin="anonymous"></script>
 <script src="bitrix/cache/js/ga/prostroy_default/slick-carousel/slick/slick.js"></script>
+<script src="bitrix/templates/prostroy_default/viewportchecker.js"></script>
 <script>
   $('.partner-slider').slick({
     autoplay: false,
@@ -1215,6 +1221,17 @@
   $('.catalogmenu li.parent').on('click', function(e){
     e.preventDefault();
     $('.hidden-catalog').toggle();
+  });
+
+  $(document).ready(function() {
+    $('.hand-pay').viewportChecker({
+      classToAdd: 'transition-left', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.package-pay').viewportChecker({
+      classToAdd: 'transition-right', // Class to add to the elements when they are visible
+      offset: 100
+    });
   });
 </script>
 </body>

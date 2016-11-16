@@ -1021,18 +1021,18 @@
       <div class="expressive-pay_text">занимается поставками ИТ Оборудования, комплектующих и расходных материалов. </div>
       <div class="expressive-pay_subtitle">Генеральный поставщик холдинга «Наше Агентство Сервиса» </div>
       <div class="expressive-pay_text">
-        Наша компания является генеральным поставщиком холдинга  «Наше Агентство Сервиса» (до 01.10.2016 ООО «ЮНИТ-Оргтехника»),
-        и основной нашей задачей является обеспечение товарами саму управляющую компанию,  а так же удовлетворение потребностей
+        Наша компания является генеральным поставщиком холдинга  «Наше Агентство Сервиса» (до 01.10.2016 ООО «ЮНИТ-Оргтехника»),<br>
+        и основной нашей задачей является обеспечение товарами саму управляющую компанию,  а так же удовлетворение потребностей<br>
         в рамках договоров на сервисное обслуживание/
       </div>
       <div class="expressive-pay_text">
-        Так же, не мало важным направлением компании является снабжение юридических и физических лиц
+        Так же, не мало важным направлением компании является снабжение юридических и физических лиц<br>
         оригинальными и совместимыми расходными материалами.
       </div>
 
       <div class="expressive-pay_title">Мы готовы предложить</div>
       <div class="expressive-pay_text">
-        > Индивидуальный подход взаимодействия для каждого заказчика. <
+        > Индивидуальный подход взаимодействия для каждого заказчика. <<br>
         > Полную ответственность за качество предоставляемых товаров. <
       </div>
       <img class="laptop-about-bg" src="bitrix/templates/prostroy_default/assets/img/laptop-about-bg.png" alt="">
@@ -1209,7 +1209,12 @@
 <!--}-->
 <!--})();</script>-->
 <!-- {/literal} END JIVOSITE CODE -->
+<script
+        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+        crossorigin="anonymous"></script>
 <script src="bitrix/cache/js/ga/prostroy_default/slick-carousel/slick/slick.js"></script>
+<script src="bitrix/templates/prostroy_default/viewportchecker.js"></script>
 <script>
   $('.partner-slider').slick({
     autoplay: false,
@@ -1227,6 +1232,25 @@
   $('.catalogmenu li.parent').on('click', function(e){
     e.preventDefault();
     $('.hidden-catalog').toggle();
+  });
+
+  $(document).ready(function() {
+    $('.laptop-about-bg').viewportChecker({
+      classToAdd: 'laptop-about-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.paper-about-bg').viewportChecker({
+      classToAdd: 'paper-about-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.book-about-bg').viewportChecker({
+      classToAdd: 'book-about-bg--transition ', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.coffe-about-bg').viewportChecker({
+      classToAdd: 'coffe-about-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
   });
 </script>
 </body>

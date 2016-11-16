@@ -1062,6 +1062,12 @@
 
         <button class="expressive-form_btn" type="submit">Отправить запрос</button>
       </form>
+
+      <img src="bitrix/templates/prostroy_default/assets/img/phone-clients-bg.png" alt="" class="phone-clients-bg">
+      <img src="bitrix/templates/prostroy_default/assets/img/paper-clients-bg.png" alt="" class="paper-clients-bg">
+      <img src="bitrix/templates/prostroy_default/assets/img/calc-clients-bg.png" alt="" class="calc-clients-bg">
+      <img src="bitrix/templates/prostroy_default/assets/img/nootbook-clients-bg.png" alt="" class="nootbook-clients-bg">
+
     </div>
   </div><!-- /content -->
 </div><!-- /body -->
@@ -1231,7 +1237,12 @@
 <!--}-->
 <!--})();</script>-->
 <!-- {/literal} END JIVOSITE CODE -->
+<script
+        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+        crossorigin="anonymous"></script>
 <script src="bitrix/cache/js/ga/prostroy_default/slick-carousel/slick/slick.js"></script>
+<script src="bitrix/templates/prostroy_default/viewportchecker.js"></script>
 <script src="inputEffect.js"></script>
 <script>
   $('.partner-slider').slick({
@@ -1250,6 +1261,25 @@
   $('.catalogmenu li.parent').on('click', function(e){
     e.preventDefault();
     $('.hidden-catalog').toggle();
+  });
+
+  $(document).ready(function() {
+    $('.phone-clients-bg').viewportChecker({
+      classToAdd: 'phone-clients-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.paper-clients-bg').viewportChecker({
+      classToAdd: 'paper-clients-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.calc-clients-bg').viewportChecker({
+      classToAdd: 'calc-clients-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.nootbook-clients-bg').viewportChecker({
+      classToAdd: 'nootbook-clients-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
   });
 </script>
 </body>

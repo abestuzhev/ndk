@@ -1011,12 +1011,12 @@
                 </div>
 
                 <div class="deco-line"><img src="bitrix/templates/prostroy_default/assets/img/deco-clients.png" alt=""></div>
-                <h1 class="pagetitle">Поставщикам</h1>
+                <h1 class="pagetitle">Хочу стать партнером!</h1>
 
             </div>
         </div>
         <div class="expressive-content expressive-suppliers">
-            <div class="expressive-clients_title">хочу стать партнером!</div>
+            <!--<div class="expressive-clients_title">хочу стать партнером!</div>-->
 
             <form class="expressive-form" action="#">
                 <div class="expressive-form_item">
@@ -1209,7 +1209,12 @@
 <!--}-->
 <!--})();</script>-->
 <!-- {/literal} END JIVOSITE CODE -->
+<script
+        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+        crossorigin="anonymous"></script>
 <script src="bitrix/cache/js/ga/prostroy_default/slick-carousel/slick/slick.js"></script>
+<script src="bitrix/templates/prostroy_default/viewportchecker.js"></script>
 <script src="inputEffect.js"></script>
 <script>
     $('.partner-slider').slick({
@@ -1228,6 +1233,17 @@
     $('.catalogmenu li.parent').on('click', function(e){
         e.preventDefault();
         $('.hidden-catalog').toggle();
+    });
+
+    $(document).ready(function() {
+        $('.hand-left-provider-bg').viewportChecker({
+            classToAdd: 'hand-left-provider-bg--transition', // Class to add to the elements when they are visible
+            offset: 100
+        });
+        $('.hand-right-provider-bg').viewportChecker({
+            classToAdd: 'hand-right-provider-bg--transition', // Class to add to the elements when they are visible
+            offset: 100
+        });
     });
 </script>
 </body>

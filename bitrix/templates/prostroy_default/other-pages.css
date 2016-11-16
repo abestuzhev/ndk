@@ -20,6 +20,11 @@
   position: relative;
   padding-top: 70px;
   padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.expressive-content img{
+  width: auto;
 }
 
 /*.expressive-content::before {*/
@@ -34,36 +39,31 @@
 
 /*expressive-pay*/
 .expressive-pay {
-  position: relative;
   background: url('assets/img/pay-bg.jpg') 50% 50% no-repeat;
   width: 100%;
   background-size: cover;
-  min-height: 670px;
+  min-height: 570px;
   color: #fff;
   text-align: center;
 }
 
-.expressive-pay::before,
-.expressive-pay::after {
-  content: '';
+.expressive-pay .package-pay,
+.expressive-pay .hand-pay {
   position: absolute;
+  width: auto;
 }
 
-.expressive-pay::before {
-  bottom: 0;
-  left: 0;
-  width: 428px;
-  height: 125px;
-  background: url('assets/img/hand-pay.png') 0 0 no-repeat;
+.package-pay {
+  top: 30px;
+  right: -15%;
+  /*width: 428px;*/
 
 }
 
-.expressive-pay::after {
-  top: 0;
-  right: 0;
-  width: 468px;
-  height: 563px;
-  background: url('assets/img/package-pay.png') 0 0 no-repeat;
+.hand-pay {
+  bottom: 70px;
+  left: -24%;
+  /*width: 468px;*/
 }
 
 .expressive-pay_title {
@@ -142,7 +142,7 @@
   background: url('assets/img/clients-bg.jpg') 50% 50% no-repeat;
   width: 100%;
   background-size: cover;
-  min-height: 688px;
+  min-height: 590px;
   color: #fff;
   text-align: center;
 }
@@ -288,12 +288,39 @@ label span {
   background-position: -18px 0;
 }
 
+.phone-clients-bg,
+.paper-clients-bg,
+.calc-clients-bg,
+.nootbook-clients-bg {
+  position: absolute;
+}
+
+.phone-clients-bg {
+  top: 9%;
+  left: 2%;
+}
+
+.paper-clients-bg {
+  bottom: -23%;
+  left: -3%;
+}
+
+.calc-clients-bg {
+  top: 22%;
+  right: 6%;
+}
+
+.nootbook-clients-bg {
+  bottom: -14%;
+  right: 6%;
+}
+
 /*****************************/
 /*about*/
 /*****************************/
 
 .expressive-about {
-  height: 670px;
+  height: 568px;
   overflow: hidden;
   background: url('assets/img/about-bg.jpg') 50% 50% no-repeat;
   background-size: cover;
@@ -308,23 +335,23 @@ label span {
 }
 
 .laptop-about-bg {
-  bottom: 0;
-  right: 0;
+  bottom: -26%;
+  right: 8%;
 }
 
 .paper-about-bg {
-  top: 0;
-  right: 0;
+  top: 5%;
+  right: -10%;
 }
 
 .book-about-bg {
-  top: 0;
-  left: 0;
+  top: 9%;
+  left: -13%;
 }
 
 .coffe-about-bg {
-  bottom: 0;
-  left: 0;
+  bottom: 10%;
+  left: 4%;
 }
 
 /*****************************/
@@ -423,6 +450,23 @@ label span {
   height: 90%;
 }
 
+.news-item_date {
+  color: #2C2C2C;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.news-item_title {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
 .news-item_body {
   margin-bottom: 20px;
 }
@@ -455,9 +499,10 @@ p {
 /*suppliers*/
 /*****************************/
 .expressive-suppliers {
-  background: url('assets/img/provider-bg.jpg') 50% 50% no-repeat;
+  background: url('assets/img/provider-bg.jpg') 50% 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  height: 567px;
 }
 
 
@@ -468,17 +513,16 @@ p {
 }
 
 .hand-left-provider-bg {
-  top: 0;
-  right: 0;
+  top: -3%;
+  left: -18%;
   background: url('assets/img/hand-left-provider-bg.png') 50% 50% no-repeat;
 
 }
 
 .hand-right-provider-bg {
-  top: 0;
-  right: 0;
+  top: 4%;
+  right: -19%;
   background: url('assets/img/hand-right-provider-bg.png') 50% 50% no-repeat;
-
 }
 
 /*****************************/
@@ -490,7 +534,33 @@ p {
   background: url('assets/img/delivery-bg.jpg') 50% 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  height: 664px;
+}
 
+.delivery-item {
+  margin-bottom: 40px;
+}
+.delivery-item_text {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.delivery-item_title {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.delivery-item_link {
+  display: block;
+}
+
+.delivery-item_trucking {
+  color: #fff;
 }
 
 .container{
@@ -498,32 +568,199 @@ p {
   margin: 0 auto;
 }
 
-
-
 ul.tabs{
   margin: 0px;
   padding: 0px;
   list-style: none;
+  margin-bottom: 36px;
 }
-ul.tabs li{
-  background: none;
-  color: #222;
+.tab-link {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 12px 20px;
+  padding-left: 60px;
   cursor: pointer;
+  color: #70DDE8;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  margin-right: 24px;
+}
+
+.tab-link::before {
+  content: '';
+  width: 26px;
+  height: 26px;
+  border: 1px solid #54D2DE;
+  position: absolute;
+  top: 6px;
+  left: 18px;
+  border-radius: 50px;
+}
+
+.tab-link::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 1px solid #54D2DE;
+  position: absolute;
+  top: 14px;
+  left: 26px;
+  border-radius: 50px;
 }
 
 ul.tabs li.current{
-  background: #ededed;
-  color: #222;
+  color: #414141;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.current::after {
+  content: '';
+  background-color: #54D2DE;
 }
 
 .tab-content{
   display: none;
-  background: #ededed;
   padding: 15px;
 }
 
 .tab-content.current{
   display: inherit;
+}
+
+/*****************************/
+/*transition*/
+/*****************************/
+
+.transition-left {
+  left: 0;
+  -webkit-transition: left .5s ease-out;
+  -moz-transition: left .5s ease-out;
+  -ms-transition: left .5s ease-out;
+  -o-transition: left .5s ease-out;
+  transition: left .5s ease-out;
+  transition-delay: .5s;
+}
+.transition-right {
+  right: 0;
+  -webkit-transition: right .5s ease-out;
+  -moz-transition: right .5s ease-out;
+  -ms-transition: right .5s ease-out;
+  -o-transition: right .5s ease-out;
+  transition: right .5s ease-out;
+  transition-delay: .5s;
+}
+
+/**/
+
+.laptop-about-bg--transition {
+  bottom: -4%;
+  -webkit-transition: bottom .5s ease-out;
+  -moz-transition: bottom .5s ease-out;
+  -ms-transition: bottom .5s ease-out;
+  -o-transition: bottom .5s ease-out;
+  transition: bottom .5s ease-out;
+  transition-delay: .5s;
+}
+.paper-about-bg--transition {
+  right: 3%;
+  -webkit-transition: right .5s ease-out;
+  -moz-transition: right .5s ease-out;
+  -ms-transition: right .5s ease-out;
+  -o-transition: right .5s ease-out;
+  transition: right .5s ease-out;
+  transition-delay: .5s;
+}
+
+.book-about-bg--transition {
+  left: 7%;
+  -webkit-transition: left .5s ease-out;
+  -moz-transition: left .5s ease-out;
+  -ms-transition: left .5s ease-out;
+  -o-transition: left .5s ease-out;
+  transition: left .5s ease-out;
+  transition-delay: .5s;
+}
+
+.coffe-about-bg--transition {
+  left: 20%;
+  -webkit-transition: left .5s ease-out;
+  -moz-transition: left .5s ease-out;
+  -ms-transition: left .5s ease-out;
+  -o-transition: left .5s ease-out;
+  transition: left .5s ease-out;
+  transition-delay: .5s;
+}
+
+/**/
+
+.hand-left-provider-bg--transition {
+  left: -2%;
+  -webkit-transition: left .5s ease-out;
+  -moz-transition: left .5s ease-out;
+  -ms-transition: left .5s ease-out;
+  -o-transition: left .5s ease-out;
+  transition: left .5s ease-out;
+  transition-delay: .5s;
+}
+
+.hand-right-provider-bg--transition {
+  right: -2%;
+  -webkit-transition: right .5s ease-out;
+  -moz-transition: right .5s ease-out;
+  -ms-transition: right .5s ease-out;
+  -o-transition: right .5s ease-out;
+  transition: right .5s ease-out;
+  transition-delay: .5s;
+}
+
+
+
+.phone-clients-bg--transition {
+  top: 12%;
+  left: 21%;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  transition-delay: .5s;
+}
+
+.paper-clients-bg--transition {
+  bottom: -5%;
+  left: -2%;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  transition-delay: .5s;
+}
+
+.calc-clients-bg--transition {
+  top: 25%;
+  right: 29%;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  transition-delay: .5s;
+}
+
+.nootbook-clients-bg--transition {
+  bottom: 0;
+  -webkit-transition: bottom .5s ease-out;
+  -moz-transition: bottom .5s ease-out;
+  -ms-transition: bottom .5s ease-out;
+  -o-transition: bottom .5s ease-out;
+  transition: bottom .5s ease-out;
+  transition-delay: .5s;
 }
