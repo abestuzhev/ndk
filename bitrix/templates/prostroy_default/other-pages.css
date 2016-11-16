@@ -537,6 +537,16 @@ p {
   height: 664px;
 }
 
+.expressive-delivery a,
+.expressive-delivery div,
+.expressive-delivery p {
+  color: #fff;
+}
+
+.delivery_list {
+  list-style: none;
+}
+
 .delivery-item {
   margin-bottom: 40px;
 }
