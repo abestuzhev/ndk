@@ -591,13 +591,13 @@ p {
   margin: 0 auto;
 }
 
-ul.tabs{
+.delivery-tabs {
   margin: 0px;
   padding: 0px;
   list-style: none;
   margin-bottom: 36px;
 }
-.tab-link {
+.delivery-tabs .tab-link {
   display: inline-block;
   padding: 12px 20px;
   padding-left: 60px;
@@ -611,7 +611,7 @@ ul.tabs{
   margin-right: 24px;
 }
 
-.tab-link::before {
+.delivery-tabs .tab-link::before {
   content: '';
   width: 26px;
   height: 26px;
@@ -622,7 +622,7 @@ ul.tabs{
   border-radius: 50px;
 }
 
-.tab-link::after {
+.delivery-tabs .tab-link::after {
   content: '';
   width: 10px;
   height: 10px;
@@ -633,7 +633,7 @@ ul.tabs{
   border-radius: 50px;
 }
 
-ul.tabs li.current{
+.delivery-tabs li.current{
   color: #414141;
   font-family: "Roboto";
   font-size: 24px;
@@ -643,7 +643,7 @@ ul.tabs li.current{
   text-transform: uppercase;
 }
 
-.current::after {
+.delivery-tabs .current::after {
   content: '';
   background-color: #54D2DE;
 }
@@ -787,3 +787,104 @@ ul.tabs li.current{
   transition: bottom .5s ease-out;
   transition-delay: .5s;
 }
+
+
+/*****************************/
+/*card-product*/
+/*****************************/
+.l-card-product-menu {
+
+}
+
+.product-line {
+  padding: 22px 28px;
+  margin-bottom: 22px;
+  background-color: #F8F8F8;
+  border: 1px solid #EBEBEB;
+}
+
+.product-line_item {
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.product-line_item .btn-ndk{
+  margin-right: 20px;
+}
+
+
+.product-tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.product-tabs .tab-link {
+  display: inline-block;
+  padding: 7px 20px;
+  padding-left: 60px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  position: relative;
+  color: #3B3B3B;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  bottom: -1px;
+  border-radius: 30px 30px 0 0;
+  border: 1px solid #C5C5C5;
+}
+
+.product-tabs .tab-link::before {
+  content: '';
+  width: 24px;
+  height: 15px;
+  position: absolute;
+  top: 8px;
+  left: 25px;
+  background: url('assets/img/eyes-icon.png') 0 0 no-repeat;
+}
+
+.product-properties .tab-content {
+  background-color: #f8f8f8;
+  border: 1px solid #C5C5C5;
+  position: relative;
+  z-index: 9;
+}
+
+
+.product-tabs li.current{
+  color: #414141;
+  font-family: "Roboto";
+  font-weight: 700;
+  background-color: #f8f8f8;
+  border-bottom-color: transparent;
+  position: relative;
+  z-index: 10;
+}
+/*.product-tabs .tab-content .current{*/
+  /*color: #3B3B3B;*/
+  /*font-family: "Roboto";*/
+  /*font-size: 14px;*/
+  /*font-weight: 400;*/
+  /*background-color: #f8f8f8;*/
+/*}*/
+
+/*.product-tabs .current::after {*/
+  /*content: '';*/
+  /*background-color: #54D2DE;*/
+/*}*/
+
+.tab-content{
+  display: none;
+  padding: 15px;
+}
+
+.tab-content.current{
+  display: inherit;
+}
+
+/*****************************/
+/*list-products*/
+/*****************************/
