@@ -412,6 +412,15 @@ label span {
   background: url(assets/img/place-icon.png) no-repeat;
 }
 
+.place-icon-white {
+  width: 9px;
+  height: 14px;
+  margin-right: 6px;
+  position: relative;
+  top: -2px;
+  background: url(assets/img/place-icon-white.png) no-repeat;
+}
+
 
 /*****************************/
 /*news*/
@@ -555,6 +564,8 @@ p {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
+  display: block;
+  margin-bottom: 14px;
 }
 
 .delivery-item_title {
@@ -562,11 +573,13 @@ p {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 8px;
+  line-height: 44px;
+  margin-bottom: 3px;
 }
 
 .delivery-item_link {
   display: block;
+  margin-bottom: 4px;
 }
 
 .delivery-item_trucking {

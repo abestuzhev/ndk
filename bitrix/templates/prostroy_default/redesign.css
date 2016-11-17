@@ -7535,7 +7535,15 @@ a.fullback:hover .icon {
   position: relative;
   top: -2px;
   background: url("assets/img/phone-icon.png")
+}
 
+.phone-icon-white {
+  width: 15px;
+  height: 15px;
+  /*margin-right: 8px;*/
+  position: relative;
+  top: 2px;
+  background: url("assets/img/phone-icon-white.png") no-repeat;
 }
 
 .wright-icon {

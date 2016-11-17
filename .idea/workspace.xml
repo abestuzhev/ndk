@@ -4,7 +4,8 @@
     <list default="true" id="06013848-a0c6-4a63-87df-7648d270ed08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css" afterPath="$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" afterPath="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delivery.html" afterPath="$PROJECT_DIR$/delivery.html" />
     </list>
     <ignored path="www.ndksale.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +32,7 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
+                <state relative-caret-position="4730">
                   <caret line="215" column="41" selection-start-line="215" selection-start-column="41" selection-end-line="215" selection-end-column="41" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,7 +76,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
+                <state relative-caret-position="1870">
                   <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
                   <folding />
                 </state>
@@ -85,7 +86,7 @@
           <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9996">
+                <state relative-caret-position="12936">
                   <caret line="1210" column="26" selection-start-line="1210" selection-start-column="26" selection-end-line="1210" selection-end-column="26" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,7 +123,7 @@
           <file leaf-file-name="pay.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pay.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5797">
+                <state relative-caret-position="7502">
                   <caret line="1205" column="76" selection-start-line="1200" selection-start-column="0" selection-end-line="1205" selection-end-column="76" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -161,8 +162,8 @@
           <file leaf-file-name="delivery.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/delivery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="404">
-                  <caret line="1027" column="34" selection-start-line="1027" selection-start-column="21" selection-end-line="1027" selection-end-column="34" />
+                <state relative-caret-position="250">
+                  <caret line="1038" column="49" selection-start-line="1038" selection-start-column="49" selection-end-line="1038" selection-end-column="49" />
                   <folding>
                     <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -175,7 +176,7 @@
           <file leaf-file-name="clients.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/clients.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6834">
+                <state relative-caret-position="8844">
                   <caret line="1266" column="44" selection-start-line="1266" selection-start-column="44" selection-end-line="1266" selection-end-column="44" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -214,7 +215,7 @@
           <file leaf-file-name="suppliers.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/suppliers.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4981">
+                <state relative-caret-position="6446">
                   <caret line="1032" column="22" selection-start-line="1032" selection-start-column="22" selection-end-line="1032" selection-end-column="22" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -257,8 +258,8 @@
           <file leaf-file-name="redesign.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176137">
-                  <caret line="10361" column="8" selection-start-line="10361" selection-start-column="8" selection-end-line="10361" selection-end-column="8" />
+                <state relative-caret-position="596">
+                  <caret line="7544" column="7" selection-start-line="7544" selection-start-column="7" selection-end-line="7544" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -267,8 +268,8 @@
           <file leaf-file-name="other-pages.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="546" column="18" selection-start-line="546" selection-start-column="18" selection-end-line="546" selection-end-column="18" />
+                <state relative-caret-position="332">
+                  <caret line="581" column="21" selection-start-line="581" selection-start-column="21" selection-end-line="581" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -277,7 +278,7 @@
           <file leaf-file-name="viewportchecker.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/viewportchecker.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
+                <state relative-caret-position="264">
                   <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
@@ -312,15 +313,15 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/provider.html" />
         <option value="$PROJECT_DIR$/pay.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/suppliers.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/new.html" />
         <option value="$PROJECT_DIR$/clients.html" />
-        <option value="$PROJECT_DIR$/delivery.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css" />
+        <option value="$PROJECT_DIR$/delivery.html" />
       </list>
     </option>
   </component>
@@ -335,10 +336,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="56" />
+    <option name="y" value="3" />
+    <option name="width" value="1871" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -351,7 +352,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="ColorIdeProjectViewPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -365,6 +366,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ColorIdeProjectViewPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prostroy_default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -423,62 +480,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="ColorIdeProjectViewPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prostroy_default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,35 +580,36 @@
       <workItem from="1479221290112" duration="377000" />
       <workItem from="1479229389045" duration="11896000" />
       <workItem from="1479278764549" duration="887000" />
+      <workItem from="1479352687376" duration="677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72989000" />
+    <option name="totallyTimeSpent" value="73666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="56" y="3" width="1871" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115214996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11651021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1277,7 +1279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6834">
+        <state relative-caret-position="8844">
           <caret line="1266" column="44" selection-start-line="1266" selection-start-column="44" selection-end-line="1266" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1314,7 +1316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suppliers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4981">
+        <state relative-caret-position="6446">
           <caret line="1032" column="22" selection-start-line="1032" selection-start-column="22" selection-end-line="1032" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1351,7 +1353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5797">
+        <state relative-caret-position="7502">
           <caret line="1205" column="76" selection-start-line="1200" selection-start-column="0" selection-end-line="1205" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1388,7 +1390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9996">
+        <state relative-caret-position="12936">
           <caret line="1210" column="26" selection-start-line="1210" selection-start-column="26" selection-end-line="1210" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1423,7 +1425,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="4730">
           <caret line="215" column="41" selection-start-line="215" selection-start-column="41" selection-end-line="215" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1463,17 +1465,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176137">
-          <caret line="10361" column="8" selection-start-line="10361" selection-start-column="8" selection-end-line="10361" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="1870">
           <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding />
         </state>
@@ -1481,29 +1475,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/viewportchecker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="7544" column="7" selection-start-line="7544" selection-start-column="7" selection-end-line="7544" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="581" column="21" selection-start-line="581" selection-start-column="21" selection-end-line="581" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delivery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="1027" column="34" selection-start-line="1027" selection-start-column="21" selection-end-line="1027" selection-end-column="34" />
+        <state relative-caret-position="250">
+          <caret line="1038" column="49" selection-start-line="1038" selection-start-column="49" selection-end-line="1038" selection-end-column="49" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="546" column="18" selection-start-line="546" selection-start-column="18" selection-end-line="546" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
