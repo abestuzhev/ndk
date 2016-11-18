@@ -3,6 +3,15 @@
   display: none ;
 }
 
+.searchinhead form {
+  border: 2px solid #fadb2a;
+  height: 34px;
+}
+
+.searchinhead {
+  margin-left: 274px;
+}
+
 .pagetitle {
   text-align: center;
   color: #414141;
@@ -507,6 +516,10 @@ p {
   text-transform: uppercase;
 }
 
+.section-layout_text{
+  height: 210px;
+  overflow: hidden;
+}
 /*****************************/
 /*suppliers*/
 /*****************************/
@@ -911,6 +924,25 @@ p {
   margin: 22px 0;
 }
 
+/*filter*/
+
+.product-filter {
+  padding: 15px 0;
+}
+
+.product-filter::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.product-filter-price {
+  float: left;
+}
+.product-filter-property {
+  float: right;
+}
+
 .card-product_title {
   color: #414141;
   font-family: "Roboto";
@@ -923,18 +955,92 @@ p {
 
 .product-line {
   padding: 22px 28px;
+  padding-right: 0;
   background-color: #F8F8F8;
   border: 1px solid #EBEBEB;
 }
 
 .product-line_item {
+  box-sizing: border-box;
   display: inline-block;
   margin-right: 48px;
   vertical-align: top;
 }
 
+.product-line_item:last-child {
+  margin-right: 0;
+}
+
 .product-line_item .btn-ndk{
   margin-right: 20px;
+  margin-top: 13px
+}
+
+.btn-ndk:hover .phone-icon {
+  background: url('assets/img/phone-icon.png') -15px 0 no-repeat;
+}
+
+.product-line_item .btn-ndk{
+  margin-right: 20px;
+  margin-top: 13px
+}
+
+.product-line .name2-art,
+.product-line .name2-availability {
+  display: inline-block;
+  margin-right: 10px;
+  /*margin-bottom: 4px;*/
+}
+
+.name2-price {
+  color: #2D2D2D;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product-line_title {
+  color: #434343;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.allproducts-line .btn-ndk {
+  margin-right: 0;
+  border: 1px solid #A8A8A8;
+  color: #A8A8A8;
+  background-color: transparent;
+}
+
+.allproducts-line .btn-ndk:hover {
+  border: 1px solid #514587;
+  color: #514587;
+  background-color: transparent;
+}
+
+.allproducts-line .btn-ndk .basket-icon {
+  background: url('assets/img/basket-icon.png') -18px 0 no-repeat;
+}
+
+.allproducts-line .btn-ndk:hover .basket-icon {
+  background: url('assets/img/basket-icon.png') 0 0 no-repeat;
+}
+
+.allproducts-line .product-line_item:first-child {
+  width: 44%;
+  margin-right: 24px;
+  padding-left: 7%;
+}
+
+.allproducts-line .product-line {
+  background-color: #fff;
+}
+
+.allproducts-line .product-line:hover {
+  background-color: #F8F8F8;
+  cursor: pointer;
 }
 
 .product-tabs {
@@ -1027,9 +1133,30 @@ p {
 }
 
 /*****************************/
-/*list-products*/
+/*news*/
+/*****************************/
+.news_list .section-layout_text {
+
+}
+
+
+
+/*****************************/
+/*stock_list*/
 /*****************************/
 
+.stock_list .section-layout_text {
+  height: auto;
+}
+
+.stock_list .section-layout {
+  height: auto;
+}
+
+.stock_list .section_img {
+  overflow: hidden;
+  height: 260px;
+}
 
 /*****************************/
 /*media*/
@@ -1181,6 +1308,17 @@ p {
     bottom: -26%;
     right: -75%;
   }
+
+  /*list-product*/
+  .allproducts-line .product-line_item:first-child {
+    padding: 0;
+  }
+
+  /*list-product*/
+  .product-line_item {
+    margin-right: 5px;
+  }
+
 }
 
 
@@ -1246,6 +1384,36 @@ p {
     display: none;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .allproducts .l-product-menu {
+    display: none;
+  }
+
+  .allproducts .l-product-body {
+    margin-left: 0;
+  }
+
+  /*section*/
+  .mainsections li.section {
+    margin-bottom: 20px;
+  }
+
+  .mainsections li.section {
+    width: 48% !important;
+  }
+
+  .section-layout {
+    height: 250px;
+  }
+
+  .section_img {
+    overflow: hidden;
+    height: 150px;
+  }
+}
+
+
 
 @media screen and (max-width: 1010px) {
   .transition-right {
@@ -1349,11 +1517,42 @@ p {
     display: inline-block;
     float: none;
   }
+
+  /*allproducts*/
+  .allproducts-line .product-line_item:first-child {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  /*allproducts*/
+  .allproducts-line .product-line_item:first-child {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainsections li.section {
+    width: 100% !important;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .expressive-pay_title {
     font-size: 3em;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .section-layout {
+    height: auto;
+    background: none;
+    background-color: #fff;
   }
 
 }

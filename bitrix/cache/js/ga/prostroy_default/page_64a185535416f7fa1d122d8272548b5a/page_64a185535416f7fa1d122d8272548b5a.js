@@ -126,19 +126,19 @@ function RSGOPRO_SetHeight()
 			$('.mainsections').find('li.section').css('minHeight',max_height);
 	},100);
 }
-
-$(document).ready(function(){
-	RSGOPRO_SetHeight();
-	$(window).bind('resize', RSGOPRO_SetHeight);
-	
-	$(window).load(function(){
-		RSGOPRO_SetHeight();
-		
-		setTimeout(function(){ // fix for slow shit
-			RSGOPRO_SetHeight();
-		},50);
-	});
-});
+//
+// $(document).ready(function(){
+// 	RSGOPRO_SetHeight();
+// 	$(window).bind('resize', RSGOPRO_SetHeight);
+//
+// 	$(window).load(function(){
+// 		RSGOPRO_SetHeight();
+//
+// 		setTimeout(function(){ // fix for slow shit
+// 			RSGOPRO_SetHeight();
+// 		},50);
+// 	});
+// });
 
 /* End */
 ;

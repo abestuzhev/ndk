@@ -1284,17 +1284,30 @@
     $('.hidden-catalog').toggle();
   });
 
+//  $(document).ready(function() {
+//    $('.rocket-delivery-bg').viewportChecker({
+//      classToAdd: 'rocket-delivery-bg--transition',
+//      offset: 100
+//    });
+//    $('.smoke-left-delivery-bg').viewportChecker({
+//      classToAdd: 'smoke-left-delivery-bg--transition',
+//      offset: 100
+//    });
+//    $('.smoke-right-delivery-bg').viewportChecker({
+//      classToAdd: 'smoke-right-delivery-bg--transition',
+//      offset: 100
+//    });
+//  });
   $(document).ready(function() {
-    $('.rocket-delivery-bg').viewportChecker({
-      classToAdd: 'rocket-delivery-bg--transition', // Class to add to the elements when they are visible
-      offset: 100
-    });
+    $('.rsec_body').viewportChecker(
+      $('.rocket-delivery-bg').addClass('rocket-delivery-bg--transition')
+    );
     $('.smoke-left-delivery-bg').viewportChecker({
-      classToAdd: 'smoke-left-delivery-bg--transition', // Class to add to the elements when they are visible
+      classToAdd: 'smoke-left-delivery-bg--transition',
       offset: 100
     });
     $('.smoke-right-delivery-bg').viewportChecker({
-      classToAdd: 'smoke-right-delivery-bg--transition', // Class to add to the elements when they are visible
+      classToAdd: 'smoke-right-delivery-bg--transition',
       offset: 100
     });
   });

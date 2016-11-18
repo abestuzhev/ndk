@@ -2737,6 +2737,7 @@ body.circular .orderlist .switch a {
   background-color: #f4f4f4;
   cursor: pointer;
   transition: all .2s ease-out;
+  margin-bottom: 20px;
 }
 
 .mainsections li.section:hover,
@@ -2744,8 +2745,6 @@ body.circular .orderlist .switch a {
   background-color: #EBD13C;
   transition: all .2s ease-out;
 }
-
-
 
 .section-layout {
   background-color: #ffffff;
@@ -2756,7 +2755,9 @@ body.circular .orderlist .switch a {
   /*position: relative;*/
   /*top: -40px;*/
   height: 300px;
+  overflow: hidden;
 }
+
 
 .section-layout_btn {
   position: absolute;
@@ -10293,9 +10294,9 @@ body {padding-bottom: 0 !important;}
   text-align: left;
   color: #514587;
   font-family: "Roboto";
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .artables.table table.products tr:hover {
@@ -10462,11 +10463,11 @@ body {padding-bottom: 0 !important;}
 }
 
 .section-toner {
-  background: url('assets/img/item-bg-1.jpg') 0 100% no-repeat;
+  background: #fff url('assets/img/item-bg-1.jpg') 50% 100% no-repeat;
 }
 
 .section-toner-card {
-  background: url('assets/img/item-bg-2.jpg') 0 100% no-repeat;
+  background: #fff url('assets/img/item-bg-2.jpg') 50% 100% no-repeat;
 }
 
 <<<<<<< HEAD:bitrix/templates/prostroy_default/redesign.css

@@ -504,7 +504,7 @@
   </div>
   <div id="content" class="content">
     <div class="centering">
-      <div class="centeringin clearfix">
+      <div class="centeringin clearfix allproducts">
 
         <div class="newbox-right-fon" style="display:none;">
           <div class="newbox-left-fon">
@@ -1501,11 +1501,31 @@
           </div>
         </div>
         <div class="l-product-body">
-          <div class="product-list_line">
+          <div class="product-filter">
+            <div class="product-filter-price">
+              <span>От - </span>
+              <input type="number" class="product-filter-num"  value="0 руб.">
+              <span>До - </span>
+              <input type="number" class="product-filter-num" value="20000 руб.">
+              <a href="#" class="btn-ndk btn-ndk--small"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">Применить</span></a>
+              <a href="#" class="btn-ndk btn-ndk--small"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">Сбросить</span></a>
+            </div>
+            <div class="product-filter-property">
+              <a href="#" class="btn-ndk btn-ndk--small btn-ndk--bg"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">По популярности</span></a>
+              <a href="#" class="btn-ndk btn-ndk--small btn-ndk--bg"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">По имени</span></a>
+              <a href="#" class="btn-ndk btn-ndk--small"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">По цене</span></a>
+              <a href="#" class="btn-ndk btn-ndk--small"><i class="icon filter-correct-icon"></i><span class="btn-ndk_title">В наличии</span></a>
+            </div>
+          </div><!--end product-filter-->
+          <div class="product-list_line allproducts-line">
+
             <div class="product-line js-element">
               <div class="product-line_item">
-                <div class="table_title">Картридж совместимый Target E-16</div>
-                <div class="table_price">840 руб.</div>
+                <div class="product-line_title">Картридж совместимый Target E-16</div>
+                <div class="name2-art">Артикул: <span class="name2-art_data">TR-E16</span></div>
+                <div class="name2-availability">Наличие: <span class="name2-availability_data">Есть</span></div>
+                <div class="name2-price">890 руб.</div>
+
               </div> <!--END product-line_item-->
 
               <div class="product-line_item">
@@ -1577,8 +1597,255 @@
                   <span class="btn-ndk_title">Добавить в корзину</span>
                 </a>
               </div> <!--END product-line_item-->
-            </div>
+            </div><!--end product-line_item-->
+
+            <div class="product-line js-element">
+              <div class="product-line_item">
+                <div class="product-line_title">Картридж совместимый Target E-16</div>
+                <div class="name2-art">Артикул: <span class="name2-art_data">TR-E16</span></div>
+                <div class="name2-availability">Наличие: <span class="name2-availability_data">Есть</span></div>
+                <div class="name2-price">890 руб.</div>
+
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">*Количество</div>
+                <form class="add2basketform js-add2basketform1794 js-synchro" name="add2basketform">
+                  <input type="hidden" name="action" value="ADD2BASKET"/>
+                                <span class="quantity">
+                                  <a class="minus js-minus">-</a>
+                                  <input type="text" class="js-quantity" name="quantity" value="1" data-ratio="1">
+                                  <!--<span class="js-measurename">шт</span>-->
+                                  <a class="plus js-plus">+</a>
+                                </span>
+                  <input type="hidden" name="id" class="js-add2basketpid" value="1794"/>
+
+                  <span id="bx_3966226736_1794_subscribe_link" class="icon add2subscribe" data-item="1794" style="">Подписаться</span>
+                  <input type="hidden" id="bx_3966226736_1794_subscribe_link_hidden">
+
+                  <script type="text/javascript">
+                    var obbx_2253176769_1794 = new JCCatalogProductSubscribe({
+                      'buttonId': 'bx_3966226736_1794_subscribe_link',
+                      'jsObject': 'obbx_2253176769_1794',
+                      'alreadySubscribed': false,
+                      'productId': '1794',
+                      'buttonClass': 'icon',
+                      'urlListSubscriptions': '/'
+                    });
+
+                    BX.message({
+                      CPST_SUBSCRIBE_POPUP_TITLE: 'Подписка на товар',
+                      CPST_SUBSCRIBE_BUTTON_NAME: 'Подписаться',
+                      CPST_SUBSCRIBE_BUTTON_CLOSE: 'Закрыть',
+                      CPST_SUBSCRIBE_MANY_CONTACT_NOTIFY: 'Выберите способ уведомления:',
+                      CPST_SUBSCRIBE_LABLE_CONTACT_INPUT: 'Укажите Ваш #CONTACT#: ',
+                      CPST_SUBSCRIBE_VALIDATE_UNKNOW_ERROR: 'Ошибка валидации',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR_EMPTY_FIELD: 'Не заполнено поле \"#FIELD#\"',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR: 'Вы не выбрали способ уведомления',
+                      CPST_SUBSCRIBE_CAPTCHA_TITLE: 'Введите слово на картинке',
+                      CPST_STATUS_SUCCESS: 'Успешно',
+                      CPST_STATUS_ERROR: 'Произошла ошибка',
+                      CPST_ENTER_WORD_PICTURE: 'Введите слово на картинке',
+                      CPST_TITLE_ALREADY_SUBSCRIBED: 'Уже подписаны',
+                      CPST_POPUP_SUBSCRIBED_TITLE: 'Вы подписаны',
+                      CPST_POPUP_SUBSCRIBED_TEXT: 'Список товаров на которые вы подписаны можно увидеть по ссылке #URL#'
+                    });
+                  </script>
+                  <script type="text/javascript">
+                    BX.ready(BX.defer(function () {
+                      if (!!window.obbx_2253176769_1794) {
+                        window.obbx_2253176769_1794.setButton('');
+                      }
+                    }));
+                  </script>
+                  <a class="submit inbasket" href="/site_ga/personal/cart/" title="В корзине">
+                    <i class="icon pngicons"></i>
+                  </a>
+                  <i class="tick icon pngicons"></i>
+                  <input type="submit" name="submit" class="nonep" value=""/>
+                </form>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">Цена</div>
+                <div class="table_price">840 руб.</div>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <a href="#" class="btn-ndk">
+                  <i class="icon basket-icon"></i>
+                  <span class="btn-ndk_title">Добавить в корзину</span>
+                </a>
+              </div> <!--END product-line_item-->
+            </div><!--end product-line_item-->
+
+            <div class="product-line js-element">
+              <div class="product-line_item">
+                <div class="product-line_title">Картридж совместимый Target E-16</div>
+                <div class="name2-art">Артикул: <span class="name2-art_data">TR-E16</span></div>
+                <div class="name2-availability">Наличие: <span class="name2-availability_data">Есть</span></div>
+                <div class="name2-price">890 руб.</div>
+
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">*Количество</div>
+                <form class="add2basketform js-add2basketform1794 js-synchro" name="add2basketform">
+                  <input type="hidden" name="action" value="ADD2BASKET"/>
+                                <span class="quantity">
+                                  <a class="minus js-minus">-</a>
+                                  <input type="text" class="js-quantity" name="quantity" value="1" data-ratio="1">
+                                  <!--<span class="js-measurename">шт</span>-->
+                                  <a class="plus js-plus">+</a>
+                                </span>
+                  <input type="hidden" name="id" class="js-add2basketpid" value="1794"/>
+
+                  <span id="bx_3966226736_1794_subscribe_link" class="icon add2subscribe" data-item="1794" style="">Подписаться</span>
+                  <input type="hidden" id="bx_3966226736_1794_subscribe_link_hidden">
+
+                  <script type="text/javascript">
+                    var obbx_2253176769_1794 = new JCCatalogProductSubscribe({
+                      'buttonId': 'bx_3966226736_1794_subscribe_link',
+                      'jsObject': 'obbx_2253176769_1794',
+                      'alreadySubscribed': false,
+                      'productId': '1794',
+                      'buttonClass': 'icon',
+                      'urlListSubscriptions': '/'
+                    });
+
+                    BX.message({
+                      CPST_SUBSCRIBE_POPUP_TITLE: 'Подписка на товар',
+                      CPST_SUBSCRIBE_BUTTON_NAME: 'Подписаться',
+                      CPST_SUBSCRIBE_BUTTON_CLOSE: 'Закрыть',
+                      CPST_SUBSCRIBE_MANY_CONTACT_NOTIFY: 'Выберите способ уведомления:',
+                      CPST_SUBSCRIBE_LABLE_CONTACT_INPUT: 'Укажите Ваш #CONTACT#: ',
+                      CPST_SUBSCRIBE_VALIDATE_UNKNOW_ERROR: 'Ошибка валидации',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR_EMPTY_FIELD: 'Не заполнено поле \"#FIELD#\"',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR: 'Вы не выбрали способ уведомления',
+                      CPST_SUBSCRIBE_CAPTCHA_TITLE: 'Введите слово на картинке',
+                      CPST_STATUS_SUCCESS: 'Успешно',
+                      CPST_STATUS_ERROR: 'Произошла ошибка',
+                      CPST_ENTER_WORD_PICTURE: 'Введите слово на картинке',
+                      CPST_TITLE_ALREADY_SUBSCRIBED: 'Уже подписаны',
+                      CPST_POPUP_SUBSCRIBED_TITLE: 'Вы подписаны',
+                      CPST_POPUP_SUBSCRIBED_TEXT: 'Список товаров на которые вы подписаны можно увидеть по ссылке #URL#'
+                    });
+                  </script>
+                  <script type="text/javascript">
+                    BX.ready(BX.defer(function () {
+                      if (!!window.obbx_2253176769_1794) {
+                        window.obbx_2253176769_1794.setButton('');
+                      }
+                    }));
+                  </script>
+                  <a class="submit inbasket" href="/site_ga/personal/cart/" title="В корзине">
+                    <i class="icon pngicons"></i>
+                  </a>
+                  <i class="tick icon pngicons"></i>
+                  <input type="submit" name="submit" class="nonep" value=""/>
+                </form>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">Цена</div>
+                <div class="table_price">840 руб.</div>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <a href="#" class="btn-ndk">
+                  <i class="icon basket-icon"></i>
+                  <span class="btn-ndk_title">Добавить в корзину</span>
+                </a>
+              </div> <!--END product-line_item-->
+            </div><!--end product-line_item-->
+
+            <div class="product-line js-element">
+              <div class="product-line_item">
+                <div class="product-line_title">Картридж совместимый Target E-16</div>
+                <div class="name2-art">Артикул: <span class="name2-art_data">TR-E16</span></div>
+                <div class="name2-availability">Наличие: <span class="name2-availability_data">Есть</span></div>
+                <div class="name2-price">890 руб.</div>
+
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">*Количество</div>
+                <form class="add2basketform js-add2basketform1794 js-synchro" name="add2basketform">
+                  <input type="hidden" name="action" value="ADD2BASKET"/>
+                                <span class="quantity">
+                                  <a class="minus js-minus">-</a>
+                                  <input type="text" class="js-quantity" name="quantity" value="1" data-ratio="1">
+                                  <!--<span class="js-measurename">шт</span>-->
+                                  <a class="plus js-plus">+</a>
+                                </span>
+                  <input type="hidden" name="id" class="js-add2basketpid" value="1794"/>
+
+                  <span id="bx_3966226736_1794_subscribe_link" class="icon add2subscribe" data-item="1794" style="">Подписаться</span>
+                  <input type="hidden" id="bx_3966226736_1794_subscribe_link_hidden">
+
+                  <script type="text/javascript">
+                    var obbx_2253176769_1794 = new JCCatalogProductSubscribe({
+                      'buttonId': 'bx_3966226736_1794_subscribe_link',
+                      'jsObject': 'obbx_2253176769_1794',
+                      'alreadySubscribed': false,
+                      'productId': '1794',
+                      'buttonClass': 'icon',
+                      'urlListSubscriptions': '/'
+                    });
+
+                    BX.message({
+                      CPST_SUBSCRIBE_POPUP_TITLE: 'Подписка на товар',
+                      CPST_SUBSCRIBE_BUTTON_NAME: 'Подписаться',
+                      CPST_SUBSCRIBE_BUTTON_CLOSE: 'Закрыть',
+                      CPST_SUBSCRIBE_MANY_CONTACT_NOTIFY: 'Выберите способ уведомления:',
+                      CPST_SUBSCRIBE_LABLE_CONTACT_INPUT: 'Укажите Ваш #CONTACT#: ',
+                      CPST_SUBSCRIBE_VALIDATE_UNKNOW_ERROR: 'Ошибка валидации',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR_EMPTY_FIELD: 'Не заполнено поле \"#FIELD#\"',
+                      CPST_SUBSCRIBE_VALIDATE_ERROR: 'Вы не выбрали способ уведомления',
+                      CPST_SUBSCRIBE_CAPTCHA_TITLE: 'Введите слово на картинке',
+                      CPST_STATUS_SUCCESS: 'Успешно',
+                      CPST_STATUS_ERROR: 'Произошла ошибка',
+                      CPST_ENTER_WORD_PICTURE: 'Введите слово на картинке',
+                      CPST_TITLE_ALREADY_SUBSCRIBED: 'Уже подписаны',
+                      CPST_POPUP_SUBSCRIBED_TITLE: 'Вы подписаны',
+                      CPST_POPUP_SUBSCRIBED_TEXT: 'Список товаров на которые вы подписаны можно увидеть по ссылке #URL#'
+                    });
+                  </script>
+                  <script type="text/javascript">
+                    BX.ready(BX.defer(function () {
+                      if (!!window.obbx_2253176769_1794) {
+                        window.obbx_2253176769_1794.setButton('');
+                      }
+                    }));
+                  </script>
+                  <a class="submit inbasket" href="/site_ga/personal/cart/" title="В корзине">
+                    <i class="icon pngicons"></i>
+                  </a>
+                  <i class="tick icon pngicons"></i>
+                  <input type="submit" name="submit" class="nonep" value=""/>
+                </form>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <div class="table_title">Цена</div>
+                <div class="table_price">840 руб.</div>
+              </div> <!--END product-line_item-->
+
+              <div class="product-line_item">
+                <a href="#" class="btn-ndk">
+                  <i class="icon basket-icon"></i>
+                  <span class="btn-ndk_title">Добавить в корзину</span>
+                </a>
+              </div> <!--END product-line_item-->
+            </div><!--end product-line_item-->
+
           </div><!--end product-list-line-->
+          <div class="ajaxpages">
+            <a rel="nofollow" href="#" data-ajaxurl="/" data-ajaxpagesid="ajaxpages_main"
+               data-navpagenomer="1" data-navpagecount="519" data-navnum="2">
+              <i class="animashka"></i>
+              <span>Еще</span></a>
+          </div>
         </div>
     </div>
 
