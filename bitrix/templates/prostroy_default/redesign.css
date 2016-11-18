@@ -7459,7 +7459,9 @@ a.fullback:hover .icon {
 /* /header */
 /* content */
 .content {
-  line-height: 18px; }
+  line-height: 18px;
+  margin-top: 14px;
+}
 
 /* /content */
 /* footer */
@@ -7558,12 +7560,16 @@ a.fullback:hover .icon {
 .foot-subscribe::before {
   content: '@';
   position: absolute;
-  left: -18px;
+  left: 0;
   top: 0;
   color: #1D1D1F;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 900;
+}
+
+.foot-subscribe {
+  padding-left: 18px;
 }
 
 .foot-layout_link {
@@ -7597,7 +7603,10 @@ a.fullback:hover .icon {
 .footer .line1 .block.four {
   width: 14%;
   padding-right: 0px;
-float: right}
+  float: right;
+  text-align: center;
+
+}
 
 .footer .line1 .block.one img {
   width: 100%; }

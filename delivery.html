@@ -1027,16 +1027,16 @@
         <div id="delivery-tab-1" class="tab-content current">
           <ul class="delivery_list">
             <li class="delivery-item">
-              <div class="delivery-item_title">В пределах МКАД</div>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">1</b>В пределах МКАД</div>
               <span class="delivery-item_text">- 450 руб. на следующий день</span>
             </li>
             <li class="delivery-item">
-              <div class="delivery-item_title">За МКАД (до 50 км)</div>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">2</b>За МКАД (до 50 км)</div>
               <span class="delivery-item_text">- 450 руб.+30 руб./км на следующий день</span>
             </li>
             <li class="delivery-item">
-              <div class="delivery-item_title">До терминала ТК в г. Москва <span>*</span></div>
-              <span class="delivery-item_text">- Бесплатно</span>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">3</b>До терминала ТК в г. Москва <span>*</span></div>
+              <span class="delivery-item_text">- На следующий день</span>
               <ul class="delivery-item_list">
                 <span>*  Транспортные компании через которые осуществляются отгрузки в регионы:</span>
                 <li class="delivery-item_trucking">Деловые линии, www.dellin.ru</li>
@@ -1046,7 +1046,7 @@
               </ul>
             </li>
             <li class="delivery-item">
-              <div class="delivery-item_title">Самовывоз</div>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">4</b>Самовывоз</div>
               <span class="delivery-item_text">- Вы можете сами забрать товар, предварительно согласовав с менеджером дату и время. </span>
               <a href="#" class="delivery-item_link"><i class="icon phone-icon-white"></i>Хочу поговорить с менеджером!</a>
               <a href="#" class="delivery-item_link"><i class="place-icon-white icon"></i>Мы на карте: г. Москва, Армянский переулок, дом. 7</a>
@@ -1056,29 +1056,37 @@
         <div id="delivery-tab-2" class="tab-content">
           <ul class="delivery_list">
             <li class="delivery-item">
-              <div class="delivery-item_title">В пределах МКАД</div>
-              <span class="delivery-item_text">- 450 руб. на следующий день</span>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">1</b>В пределах МКАД</div>
+              <span class="delivery-item_text">- Бесплатно</span>
             </li>
             <li class="delivery-item">
-              <div class="delivery-item_title">За МКАД (до 50 км)</div>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">2</b>За МКАД (до 50 км)</div>
               <span class="delivery-item_text">- 450 руб.+30 руб./км на следующий день</span>
             </li>
             <li class="delivery-item">
-              <div class="delivery-item_title">До терминала ТК в г. Москва <span>*</span></div>
-              <span class="delivery-item_text">- 450 руб. на следующий день</span>
+              <div class="delivery-item_title"><b class="delivery-item_title-count">3</b>До терминала ТК в г. Москва <span>*</span></div>
+              <span class="delivery-item_text">- На следующий день</span>
               <ul class="delivery-item_list">
-                <p>*  Транспортные компании через которые осуществляются отгрузки в регионы:</p>
+                <span>*  Транспортные компании через которые осуществляются отгрузки в регионы:</span>
                 <li class="delivery-item_trucking">Деловые линии, www.dellin.ru</li>
                 <li class="delivery-item_trucking">КИТ ТК, www.tk-kit.ru</li>
                 <li class="delivery-item_trucking">Первая Экспедиционная Компания, www.pecom.ru</li>
                 <li class="delivery-item_trucking">Компания «ТрансКарго», www.cargocompany.ru</li>
               </ul>
             </li>
+            <li class="delivery-item">
+              <div class="delivery-item_title"><b class="delivery-item_title-count">4</b>Самовывоз</div>
+              <span class="delivery-item_text">- Вы можете сами забрать товар, предварительно согласовав с менеджером дату и время. </span>
+              <a href="#" class="delivery-item_link"><i class="icon phone-icon-white"></i>Хочу поговорить с менеджером!</a>
+              <a href="#" class="delivery-item_link"><i class="place-icon-white icon"></i>Мы на карте: г. Москва, Армянский переулок, дом. 7</a>
+            </li>
           </ul>
         </div>
       </div><!-- container -->
-
-    </div>
+      <img src="bitrix/templates/prostroy_default/assets/img/rocket-delivery-bg.png" alt=""  class="rocket-delivery-bg">
+      <img src="bitrix/templates/prostroy_default/assets/img/smoke-left-delivery-bg.png" alt=""  class="smoke-left-delivery-bg">
+      <img src="bitrix/templates/prostroy_default/assets/img/smoke-right-delivery-bg.png" alt=""  class="smoke-right-delivery-bg">
+    </div> <!--expressive-delivery-->
   </div><!-- /content -->
 </div><!-- /body -->
 <script type="text/javascript">RSGoPro_SetSet();</script>
@@ -1131,9 +1139,9 @@
           </div>
         </div>
       </div>
-      <div class="block three">
+      <!--<div class="block three">-->
 
-      </div>
+      <!--</div>-->
       <div class="block four">
         <i class="download-icon-outline icon"></i>
         <a class="footer-download" href="#">Скачать прайс-листы</a>
@@ -1253,6 +1261,7 @@
         crossorigin="anonymous"></script>
 <script src="bitrix/cache/js/ga/prostroy_default/slick-carousel/slick/slick.js"></script>
 <script src="bitrix/templates/prostroy_default/redesign.js"></script>
+<script src="bitrix/templates/prostroy_default/viewportchecker.js"></script>
 <script>
   $('.partner-slider').slick({
     autoplay: false,
@@ -1270,6 +1279,21 @@
   $('.catalogmenu li.parent').on('click', function(e){
     e.preventDefault();
     $('.hidden-catalog').toggle();
+  });
+
+  $(document).ready(function() {
+    $('.rocket-delivery-bg').viewportChecker({
+      classToAdd: 'rocket-delivery-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.smoke-left-delivery-bg').viewportChecker({
+      classToAdd: 'smoke-left-delivery-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
+    $('.smoke-right-delivery-bg').viewportChecker({
+      classToAdd: 'smoke-right-delivery-bg--transition', // Class to add to the elements when they are visible
+      offset: 100
+    });
   });
 </script>
 </body>
