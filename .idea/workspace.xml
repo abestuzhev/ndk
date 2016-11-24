@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06013848-a0c6-4a63-87df-7648d270ed08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" afterPath="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
     </list>
     <ignored path="www.ndksale.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,98 +25,27 @@
     <favorites_list name="www.ndksale.ru" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7019299">
+    <splitter split-orientation="horizontal" split-proportion="0.8244847">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home.html">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18513">
-                  <caret line="1161" column="0" selection-start-line="1086" selection-start-column="0" selection-end-line="1161" selection-end-column="0" />
+                <state relative-caret-position="266">
+                  <caret line="523" column="48" selection-start-line="523" selection-start-column="48" selection-end-line="523" selection-end-column="48" />
                   <folding>
-                    <element signature="n#div#5;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="redesign_leeft_2016.css" pinned="false" current-in-tab="false">
+            <entry file="file://C:/TEMP/scp59481/home/bitrix/www/local/templates/redesign/custom/redesign_leeft_2016.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="537">
-                  <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+                <state relative-caret-position="154">
+                  <caret line="1683" column="33" selection-start-line="1683" selection-start-column="33" selection-end-line="1683" selection-end-column="33" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="stock.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stock.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17204">
-                  <caret line="1012" column="104" selection-start-line="1012" selection-start-column="104" selection-end-line="1012" selection-end-column="104" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/news.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18241">
-                  <caret line="1073" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="1303" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="list-products.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/list-products.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="522">
-                  <caret line="1514" column="65" selection-start-line="1514" selection-start-column="65" selection-end-line="1514" selection-end-column="65" />
-                  <folding>
-                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#form#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#div#4;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="new.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/new.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19244">
-                  <caret line="1132" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="1235" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="redesign.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1037">
-                  <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="delivery.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/delivery.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12631">
-                  <caret line="1280" column="0" selection-start-line="1280" selection-start-column="0" selection-end-line="1280" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -123,8 +53,8 @@
           <file leaf-file-name="clients.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/clients.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5593">
-                  <caret line="1068" column="84" selection-start-line="1068" selection-start-column="16" selection-end-line="1068" selection-end-column="84" />
+                <state relative-caret-position="792">
+                  <caret line="1070" column="10" selection-start-line="1041" selection-start-column="4" selection-end-line="1070" selection-end-column="10" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -137,11 +67,44 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="card-product.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/card-product.html">
+          <file leaf-file-name="suppliers.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/suppliers.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25738">
-                  <caret line="1514" column="43" selection-start-line="1514" selection-start-column="32" selection-end-line="1514" selection-end-column="43" />
+                <state relative-caret-position="564">
+                  <caret line="1241" column="11" selection-start-line="1241" selection-start-column="11" selection-end-line="1241" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="delivery.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/delivery.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="1015" column="118" selection-start-line="1015" selection-start-column="8" selection-end-line="1015" selection-end-column="118" />
+                  <folding>
+                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pay.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pay.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="371">
+                  <caret line="1031" column="10" selection-start-line="1018" selection-start-column="4" selection-end-line="1031" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/contact.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3476">
+                  <caret line="1050" column="10" selection-start-line="1027" selection-start-column="4" selection-end-line="1050" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -151,21 +114,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="redesign.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="redesign.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46920">
-                  <caret line="2760" column="0" selection-start-line="2760" selection-start-column="0" selection-end-line="2760" selection-end-column="0" />
+                <state relative-caret-position="380">
+                  <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="71" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="other-pages.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="other-pages.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="1671" column="24" selection-start-line="1671" selection-start-column="24" selection-end-line="1671" selection-end-column="24" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -174,7 +137,7 @@
           <file leaf-file-name="page_64a185535416f7fa1d122d8272548b5a.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/js/ga/prostroy_default/page_64a185535416f7fa1d122d8272548b5a/page_64a185535416f7fa1d122d8272548b5a.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2295">
+                <state relative-caret-position="2970">
                   <caret line="135" column="2" selection-start-line="135" selection-start-column="2" selection-end-line="135" selection-end-column="2" />
                   <folding />
                 </state>
@@ -184,7 +147,7 @@
           <file leaf-file-name="viewportchecker.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/viewportchecker.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
+                <state relative-caret-position="264">
                   <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
@@ -218,7 +181,6 @@
         <option value="$PROJECT_DIR$/provider.html" />
         <option value="$PROJECT_DIR$/pay.html" />
         <option value="$PROJECT_DIR$/new.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/suppliers.html" />
         <option value="$PROJECT_DIR$/clients.html" />
@@ -226,13 +188,15 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/bitrix/cache/js/ga/prostroy_default/page_64a185535416f7fa1d122d8272548b5a/page_64a185535416f7fa1d122d8272548b5a.js" />
         <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
         <option value="$PROJECT_DIR$/stock.html" />
         <option value="$PROJECT_DIR$/delivery.html" />
         <option value="$PROJECT_DIR$/card-product.html" />
         <option value="$PROJECT_DIR$/list-products.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="C:/TEMP/scp59481/home/bitrix/www/local/templates/redesign/custom/redesign_leeft_2016.css" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css" />
       </list>
     </option>
   </component>
@@ -247,10 +211,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="56" />
+    <option name="y" value="3" />
+    <option name="width" value="1871" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,7 +227,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="ColorIdeProjectViewPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -277,28 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -355,6 +298,27 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ndk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,11 +329,11 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\ndk" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\ndk\bitrix\templates\prostroy_default" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\ndk" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -461,17 +425,18 @@
       <workItem from="1479437561867" duration="3696000" />
       <workItem from="1479449321485" duration="19062000" />
       <workItem from="1479471113565" duration="50000" />
+      <workItem from="1479951509009" duration="4834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124605000" />
+    <option name="totallyTimeSpent" value="129439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
-    <editor active="true" />
+    <frame x="56" y="3" width="1871" height="1084" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11466373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115958035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -516,21 +481,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8381">
-          <caret line="493" column="17" selection-start-line="493" selection-start-column="17" selection-end-line="493" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28798">
@@ -762,58 +712,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/viewportchecker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="1097" column="16" selection-start-line="1095" selection-start-column="10" selection-end-line="1097" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suppliers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="1013" column="60" selection-start-line="1013" selection-start-column="60" selection-end-line="1013" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="520" column="16" selection-start-line="520" selection-start-column="16" selection-end-line="520" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7004">
-          <caret line="1204" column="38" selection-start-line="1204" selection-start-column="38" selection-end-line="1204" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5593">
-          <caret line="1068" column="84" selection-start-line="1068" selection-start-column="16" selection-end-line="1068" selection-end-column="84" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19244">
+        <state relative-caret-position="24904">
           <caret line="1132" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="1235" selection-end-column="0" />
           <folding />
         </state>
@@ -821,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
+        <state relative-caret-position="1342">
           <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
           <folding />
         </state>
@@ -829,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/js/ga/prostroy_default/page_64a185535416f7fa1d122d8272548b5a/page_64a185535416f7fa1d122d8272548b5a.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
+        <state relative-caret-position="2970">
           <caret line="135" column="2" selection-start-line="135" selection-start-column="2" selection-end-line="135" selection-end-column="2" />
           <folding />
         </state>
@@ -837,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18513">
+        <state relative-caret-position="23958">
           <caret line="1161" column="0" selection-start-line="1086" selection-start-column="0" selection-end-line="1161" selection-end-column="0" />
           <folding>
             <element signature="n#div#5;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -847,42 +754,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18241">
+        <state relative-caret-position="23606">
           <caret line="1073" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="1303" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46920">
-          <caret line="2760" column="0" selection-start-line="2760" selection-start-column="0" selection-end-line="2760" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17204">
+        <state relative-caret-position="22264">
           <caret line="1012" column="104" selection-start-line="1012" selection-start-column="104" selection-end-line="1012" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delivery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12631">
-          <caret line="1280" column="0" selection-start-line="1280" selection-start-column="0" selection-end-line="1280" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/card-product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25738">
+        <state relative-caret-position="33308">
           <caret line="1514" column="43" selection-start-line="1514" selection-start-column="32" selection-end-line="1514" selection-end-column="43" />
           <folding />
         </state>
@@ -890,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list-products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="12012">
           <caret line="1514" column="65" selection-start-line="1514" selection-start-column="65" selection-end-line="1514" selection-end-column="65" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -904,18 +792,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="1671" column="24" selection-start-line="1671" selection-start-column="24" selection-end-line="1671" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/TEMP/scp58927/home/bitrix/www/local/templates/redesign/custom/redesign_leeft_2016.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/other-pages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/TEMP/scp59481/home/bitrix/www/local/templates/redesign/custom/redesign_leeft_2016.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1683" column="33" selection-start-line="1683" selection-start-column="33" selection-end-line="1683" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="523" column="48" selection-start-line="523" selection-start-column="48" selection-end-line="523" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="1070" column="10" selection-start-line="1041" selection-start-column="4" selection-end-line="1070" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/prostroy_default/redesign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="71" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suppliers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="1241" column="11" selection-start-line="1241" selection-start-column="11" selection-end-line="1241" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="1015" column="118" selection-start-line="1015" selection-start-column="8" selection-end-line="1015" selection-end-column="118" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="1031" column="10" selection-start-line="1018" selection-start-column="4" selection-end-line="1031" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3476">
+          <caret line="1050" column="10" selection-start-line="1027" selection-start-column="4" selection-end-line="1050" selection-end-column="10" />
           <folding />
         </state>
       </provider>
