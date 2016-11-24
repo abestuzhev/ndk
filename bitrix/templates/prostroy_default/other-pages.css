@@ -197,11 +197,11 @@
 @-webkit-keyframes anim-fumi-1 {
   50% {
     -webkit-transform: translate3d(0, 3em, 0);
-    transform: translate3d(0, 3em, 0);
+    transform: translate3d(-0.6em, 3em, 0);
   }
   51% {
     -webkit-transform: translate3d(0, -3em, 0) scale3d(0.85, 0.85, 1);
-    transform: translate3d(0, -3em, 0) scale3d(0.85, 0.85, 1);
+    transform: translate3d(-0.6em, -3em, 0) scale3d(0.85, 0.85, 1);
   }
   100% {
     color: #a3a3a3;
@@ -213,11 +213,11 @@
 @keyframes anim-fumi-1 {
   50% {
     -webkit-transform: translate3d(0, 3em, 0);
-    transform: translate3d(0, 3em, 0);
+    transform: translate3d(-0.6em, 3em, 0);
   }
   51% {
     -webkit-transform: translate3d(0, -3em, 0) scale3d(0.85, 0.85, 1);
-    transform: translate3d(0, -3em, 0) scale3d(0.85, 0.85, 1);
+    transform: translate3d(-0.6em, -3em, 0) scale3d(0.85, 0.85, 1);
   }
   100% {
     color: #a3a3a3;
@@ -1504,7 +1504,7 @@ p {
   .hand-left-provider-bg--transition {
     left: -60%;
   }
-  
+
   /*news*/
   .news-item_card {
     background-color: transparent;
